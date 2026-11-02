@@ -1,0 +1,9 @@
+test_lyric_preflight_shows_actual_split_rows_and_bank_usage (__main__.FrontendTests.test_lyric_preflight_shows_actual_split_rows_and_bank_usage) ... ok
+test_lyrics_draft_survives_unrelated_cover_upload (__main__.FrontendTests.test_lyrics_draft_survives_unrelated_cover_upload) ... ok
+test_pending_upload_cannot_switch_or_contaminate_another_project (__main__.FrontendTests.test_pending_upload_cannot_switch_or_contaminate_another_project) ... ok
+test_track_order_buttons_reorder_actual_project (__main__.FrontendTests.test_track_order_buttons_reorder_actual_project) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 3.761s
+
+OK

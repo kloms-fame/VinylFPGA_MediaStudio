@@ -1,0 +1,20 @@
+{
+  "url": "http://127.0.0.1:3608",
+  "project_id": "d1029681a4e246e69c43f4b1f221930f",
+  "verification_job": "重新校验 · 完成",
+  "console_errors": [],
+  "preview_size": [
+    640,
+    480
+  ],
+  "board_capture_tested": false,
+  "scope": "UI and image-readback previews from the final portable EXE; no physical board capture",
+  "screenshots": [
+    "preview_browse.png",
+    "preview_play.png",
+    "studio_browse.png",
+    "studio_comparison.png",
+    "studio_delivery.png",
+    "studio_play.png"
+  ]
+}

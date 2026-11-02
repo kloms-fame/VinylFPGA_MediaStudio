@@ -1,0 +1,1613 @@
+{
+  "project_id": "d1029681a4e246e69c43f4b1f221930f",
+  "release_id": "33df59e4cbe741bcb1409640770ccc32",
+  "release": {
+    "schema": 1,
+    "name": "已验收四曲 · Media Studio 重建",
+    "mode": "frozen",
+    "image": {
+      "path": "card.img",
+      "sha256": "1f08505e64c284f49cd7cae516f557bc173c464c314b1fe29b35d5b54f54a247",
+      "bytes": 1224736768
+    },
+    "tracks": [
+      {
+        "slot": 0,
+        "title": "Never Gonna Give",
+        "artist": "Rick Astley",
+        "duration_ms": 212309,
+        "samples": 10190848,
+        "lyrics": [
+          [
+            18788,
+            "We're no strange"
+          ],
+          [
+            21056,
+            "rs to love"
+          ],
+          [
+            22767,
+            "You know the"
+          ],
+          [
+            24324,
+            "rules and so do"
+          ],
+          [
+            26270,
+            "I"
+          ],
+          [
+            26785,
+            "A full"
+          ],
+          [
+            27415,
+            "commitment's"
+          ],
+          [
+            28677,
+            "what I'm"
+          ],
+          [
+            29518,
+            "thinking of"
+          ],
+          [
+            31200,
+            "You wouldn't get"
+          ],
+          [
+            32715,
+            "this from any"
+          ],
+          [
+            33947,
+            "other guy"
+          ],
+          [
+            35057,
+            "I just wanna"
+          ],
+          [
+            36614,
+            "tell you how I'm"
+          ],
+          [
+            38691,
+            "feeling"
+          ],
+          [
+            40190,
+            "Gotta make you"
+          ],
+          [
+            41668,
+            "understand"
+          ],
+          [
+            42770,
+            "Never gonna give"
+          ],
+          [
+            44337,
+            "you up"
+          ],
+          [
+            45083,
+            "Never gonna let"
+          ],
+          [
+            46447,
+            "you down"
+          ],
+          [
+            47354,
+            "Never gonna run"
+          ],
+          [
+            48970,
+            "around and"
+          ],
+          [
+            50047,
+            "desert you"
+          ],
+          [
+            51684,
+            "Never gonna make"
+          ],
+          [
+            53016,
+            "you cry"
+          ],
+          [
+            53901,
+            "Never gonna say"
+          ],
+          [
+            55025,
+            "goodbye"
+          ],
+          [
+            55802,
+            "Never gonna tell"
+          ],
+          [
+            58226,
+            "a lie and hurt"
+          ],
+          [
+            60347,
+            "you"
+          ],
+          [
+            60984,
+            "We've known each"
+          ],
+          [
+            62879,
+            "other for so"
+          ],
+          [
+            64301,
+            "long"
+          ],
+          [
+            65025,
+            "Your heart's"
+          ],
+          [
+            65961,
+            "been aching but"
+          ],
+          [
+            67131,
+            "you're too shy"
+          ],
+          [
+            68223,
+            "to say it"
+          ],
+          [
+            69466,
+            "Inside we both"
+          ],
+          [
+            70731,
+            "know what's been"
+          ],
+          [
+            72177,
+            "going on"
+          ],
+          [
+            73050,
+            "We know the game"
+          ],
+          [
+            74871,
+            "and we're gonna"
+          ],
+          [
+            76578,
+            "play it"
+          ],
+          [
+            77492,
+            "And if you ask"
+          ],
+          [
+            79516,
+            "me how I'm"
+          ],
+          [
+            80962,
+            "feeling"
+          ],
+          [
+            82192,
+            "Don't tell me"
+          ],
+          [
+            83364,
+            "you're too blind"
+          ],
+          [
+            84808,
+            "to see"
+          ],
+          [
+            85494,
+            "Never gonna give"
+          ],
+          [
+            86734,
+            "you up"
+          ],
+          [
+            87394,
+            "Never gonna let"
+          ],
+          [
+            88702,
+            "you down"
+          ],
+          [
+            89591,
+            "Never gonna run"
+          ],
+          [
+            91212,
+            "around and"
+          ],
+          [
+            92293,
+            "desert you"
+          ],
+          [
+            93542,
+            "Never gonna make"
+          ],
+          [
+            95112,
+            "you cry"
+          ],
+          [
+            96031,
+            "Never gonna say"
+          ],
+          [
+            97288,
+            "goodbye"
+          ],
+          [
+            97875,
+            "Never gonna tell"
+          ],
+          [
+            99850,
+            "a lie and hurt"
+          ],
+          [
+            101579,
+            "you"
+          ],
+          [
+            102287,
+            "Never gonna give"
+          ],
+          [
+            103641,
+            "you up"
+          ],
+          [
+            104407,
+            "Never gonna let"
+          ],
+          [
+            105674,
+            "you down"
+          ],
+          [
+            106587,
+            "Never gonna run"
+          ],
+          [
+            108242,
+            "around and"
+          ],
+          [
+            109346,
+            "desert you"
+          ],
+          [
+            110738,
+            "Never gonna make"
+          ],
+          [
+            111963,
+            "you cry"
+          ],
+          [
+            112751,
+            "Never gonna say"
+          ],
+          [
+            114131,
+            "goodbye"
+          ],
+          [
+            114891,
+            "Never gonna tell"
+          ],
+          [
+            117315,
+            "a lie and hurt"
+          ],
+          [
+            119436,
+            "you"
+          ],
+          [
+            128427,
+            "Never gonna give"
+          ],
+          [
+            129901,
+            "Never gonna give"
+          ],
+          [
+            132571,
+            "Never gonna give"
+          ],
+          [
+            134548,
+            "Never gonna give"
+          ],
+          [
+            136827,
+            "We've known each"
+          ],
+          [
+            138763,
+            "other for so"
+          ],
+          [
+            140215,
+            "long"
+          ],
+          [
+            140700,
+            "Your heart's"
+          ],
+          [
+            141678,
+            "been aching but"
+          ],
+          [
+            142900,
+            "you're too shy"
+          ],
+          [
+            144041,
+            "to say it"
+          ],
+          [
+            145050,
+            "Inside we both"
+          ],
+          [
+            146440,
+            "know what's been"
+          ],
+          [
+            148030,
+            "going on"
+          ],
+          [
+            149362,
+            "We know the game"
+          ],
+          [
+            150904,
+            "and we're gonna"
+          ],
+          [
+            152350,
+            "play it"
+          ],
+          [
+            153272,
+            "I just wanna"
+          ],
+          [
+            154867,
+            "tell you how I'm"
+          ],
+          [
+            156994,
+            "feeling"
+          ],
+          [
+            158101,
+            "Gotta make you"
+          ],
+          [
+            159981,
+            "understand"
+          ],
+          [
+            161325,
+            "Never gonna give"
+          ],
+          [
+            162652,
+            "you up"
+          ],
+          [
+            163371,
+            "Never gonna let"
+          ],
+          [
+            164775,
+            "you down"
+          ],
+          [
+            165690,
+            "Never gonna run"
+          ],
+          [
+            167280,
+            "around and"
+          ],
+          [
+            168340,
+            "desert you"
+          ],
+          [
+            169715,
+            "Never gonna make"
+          ],
+          [
+            170956,
+            "you cry"
+          ],
+          [
+            171994,
+            "Never gonna say"
+          ],
+          [
+            173225,
+            "goodbye"
+          ],
+          [
+            174016,
+            "Never gonna tell"
+          ],
+          [
+            176020,
+            "a lie and hurt"
+          ],
+          [
+            177774,
+            "you"
+          ],
+          [
+            178150,
+            "Never gonna give"
+          ],
+          [
+            179622,
+            "you up"
+          ],
+          [
+            180414,
+            "Never gonna let"
+          ],
+          [
+            181741,
+            "you down"
+          ],
+          [
+            182649,
+            "Never gonna run"
+          ],
+          [
+            184320,
+            "around and"
+          ],
+          [
+            185435,
+            "desert you"
+          ],
+          [
+            186550,
+            "Never gonna make"
+          ],
+          [
+            188028,
+            "you cry"
+          ],
+          [
+            188873,
+            "Never gonna say"
+          ],
+          [
+            190238,
+            "goodbye"
+          ],
+          [
+            191076,
+            "Never gonna tell"
+          ],
+          [
+            193500,
+            "a lie and hurt"
+          ],
+          [
+            195621,
+            "you"
+          ]
+        ],
+        "audio": {
+          "path": "converted/AUDIO.PCM",
+          "bytes": 20381696,
+          "sha256": "e41edee911a79d0c30c50391475aabed000581d6461d30816d3f6d9971dec996",
+          "lba": 11190,
+          "cluster": 455
+        },
+        "cover": {
+          "path": "converted/PIC1.BMP",
+          "bytes": 921654,
+          "sha256": "f628e4d600c9d0be1f46c36377238cee15ff1caa7cbb607ab8a3ebdde28d5ee9",
+          "lba": 9386,
+          "cluster": 4
+        },
+        "mv": {
+          "path": "converted/TRACK1.MV",
+          "bytes": 326092800,
+          "frames": 2123,
+          "fps": 10,
+          "sha256": "5301cd36891ddf09160ca4cc10617f778a24a02dbdfd202e174a84c828fe09c7",
+          "lba": 50998,
+          "cluster": 10407
+        }
+      },
+      {
+        "slot": 1,
+        "title": "鸡你太美国风版",
+        "artist": "鬼山哥",
+        "duration_ms": 169366,
+        "samples": 8129585,
+        "lyrics": [
+          [
+            920,
+            "啊啊啊啊啊啊"
+          ],
+          [
+            9720,
+            "鸡你太美 哎哦"
+          ],
+          [
+            11660,
+            "鸡你太美 ehoh"
+          ],
+          [
+            17000,
+            "只因你实在是太美 ehoh"
+          ],
+          [
+            25160,
+            "如今你走过我的身旁让我如此蠢蠢欲"
+          ],
+          [
+            27211,
+            "动"
+          ],
+          [
+            27340,
+            "感觉我从未有可能高度questi"
+          ],
+          [
+            28566,
+            "on"
+          ],
+          [
+            28720,
+            "So who are you"
+          ],
+          [
+            30840,
+            "你是我的"
+          ],
+          [
+            31740,
+            "我是你的"
+          ],
+          [
+            32700,
+            "谁"
+          ],
+          [
+            32970,
+            "再多一眼看一眼就会爆炸"
+          ],
+          [
+            34920,
+            "再近一点"
+          ],
+          [
+            35580,
+            "靠近点"
+          ],
+          [
+            36060,
+            "快被融化"
+          ],
+          [
+            36860,
+            "想要把你占为己有 baby"
+          ],
+          [
+            38240,
+            "baby"
+          ],
+          [
+            38600,
+            "不管走到哪里都会想着你"
+          ],
+          [
+            41140,
+            "我应该把你怎样啊"
+          ],
+          [
+            43240,
+            "所有人都在看着你"
+          ],
+          [
+            44920,
+            "我的心总是不安"
+          ],
+          [
+            46420,
+            "oh我现在已病入膏肓"
+          ],
+          [
+            48500,
+            "eh难道真的因为你而疯狂吗"
+          ],
+          [
+            52280,
+            "我本来不是这种人"
+          ],
+          [
+            54460,
+            "因你变成奇怪的人"
+          ],
+          [
+            56110,
+            "第一次要变成这样的我"
+          ],
+          [
+            59560,
+            "管我怎么去否认"
+          ],
+          [
+            62740,
+            "鸡你太美 ehoh"
+          ],
+          [
+            65960,
+            "鸡你太美 ehoh"
+          ],
+          [
+            69460,
+            "鸡你实在是太美 ehoh"
+          ],
+          [
+            76940,
+            "鸡你实在是太美 ehoh"
+          ],
+          [
+            81200,
+            "鸡你太美 ehoh"
+          ],
+          [
+            82550,
+            "你到底属于谁"
+          ],
+          [
+            84760,
+            "鸡你太美"
+          ],
+          [
+            86160,
+            "现在确认地告诉我"
+          ],
+          [
+            87960,
+            "eeeh 属于谁"
+          ],
+          [
+            91320,
+            "你到底属于谁就是现在告诉我"
+          ],
+          [
+            92750,
+            "可惜向前走过"
+          ],
+          [
+            94640,
+            "每个为自己的奶油"
+          ],
+          [
+            96200,
+            "it's a birthday"
+          ],
+          [
+            96860,
+            "casion"
+          ],
+          [
+            97700,
+            "game call me"
+          ],
+          [
+            98360,
+            "你变身"
+          ],
+          [
+            98960,
+            "别被欺骗"
+          ],
+          [
+            99680,
+            "愉快的wanna"
+          ],
+          [
+            100700,
+            "我的脑海每分每秒为你"
+          ],
+          [
+            101900,
+            "一直最让我喜欢颠倒世界时的下坠"
+          ],
+          [
+            104380,
+            "oh yeah"
+          ],
+          [
+            104680,
+            "baby"
+          ],
+          [
+            104920,
+            "i'm in love with"
+          ],
+          [
+            105930,
+            "you"
+          ],
+          [
+            106120,
+            "我的一切你都拿走"
+          ],
+          [
+            107020,
+            "只要有你就已足够"
+          ],
+          [
+            108340,
+            "哦到底应该怎样啊啊我心里是很不安"
+          ],
+          [
+            112420,
+            "期待男人们的新鲜啊"
+          ],
+          [
+            114460,
+            "啊全都是看上你的脸唉哦"
+          ],
+          [
+            116980,
+            "难道真的因为你而疯狂吗"
+          ],
+          [
+            120040,
+            "我本来不是这种人"
+          ],
+          [
+            121780,
+            "因你变成奇怪的人"
+          ],
+          [
+            123580,
+            "第一次要变成这样的"
+          ],
+          [
+            127040,
+            "我管我怎么去否认"
+          ],
+          [
+            130220,
+            "鸡你太美"
+          ],
+          [
+            131030,
+            "ehoh"
+          ],
+          [
+            136760,
+            "只因你实在是太美"
+          ],
+          [
+            140740,
+            "哦鸡你太美 ehoh"
+          ],
+          [
+            141960,
+            "哦 鸡你太美"
+          ],
+          [
+            144420,
+            "哎呦 ehoh"
+          ],
+          [
+            147680,
+            "现在准确地告诉我"
+          ],
+          [
+            151280,
+            "你现在属于谁"
+          ],
+          [
+            155100,
+            "就是现在准确的告诉我"
+          ],
+          [
+            158100,
+            "你现在属于谁就是现在告诉我"
+          ]
+        ],
+        "audio": {
+          "path": "converted/AUDIO2.PCM",
+          "bytes": 16259170,
+          "sha256": "538902881020f29e5eae0cdf161a8bb868f9042dc4545709203fa8bcb5b0c0d5",
+          "lba": 689702,
+          "cluster": 170083
+        },
+        "cover": {
+          "path": "converted/PIC2.BMP",
+          "bytes": 921654,
+          "sha256": "e0938830e6b93cb9ba6fbb7c5d43806e9536dfe070b728493752434b0965f02b",
+          "lba": 687898,
+          "cluster": 169632
+        },
+        "mv": {
+          "path": "converted/TRACK2.MV",
+          "bytes": 260044800,
+          "frames": 1693,
+          "fps": 10,
+          "sha256": "8db259b524ea3aa65f380d4718404d80ddfd23f94d3d183b21b83a5929ae3569",
+          "lba": 721462,
+          "cluster": 178023
+        }
+      },
+      {
+        "slot": 2,
+        "title": "黄仁勋世界巡演",
+        "artist": "王与也行",
+        "duration_ms": 85568,
+        "samples": 4107264,
+        "lyrics": [
+          [
+            36900,
+            "他们都黄仁勋"
+          ],
+          [
+            38260,
+            "你这CUDA太菜"
+          ],
+          [
+            39760,
+            "搞什么通用计算早晚被人替代"
+          ],
+          [
+            43200,
+            "十年冷板凳熬穿"
+          ],
+          [
+            44940,
+            "看我掀开底牌"
+          ],
+          [
+            46560,
+            "so AI just AI"
+          ],
+          [
+            50160,
+            "GPT横空出世"
+          ],
+          [
+            52099,
+            "规则全被修改"
+          ],
+          [
+            53559,
+            "算力荒席卷全球"
+          ],
+          [
+            55739,
+            "大厂乖乖等待"
+          ],
+          [
+            58330,
+            "建算力中心靠我 钞票统统拿来"
+          ],
+          [
+            60390,
+            "so AI AI时代到来者"
+          ],
+          [
+            64250,
+            "Just AI AI AI AI"
+          ],
+          [
+            66380,
+            "AI时代没人能够逃开"
+          ],
+          [
+            71380,
+            "市值狂飙5万亿"
+          ],
+          [
+            73440,
+            "华尔街全部"
+          ],
+          [
+            74280,
+            "看呆"
+          ],
+          [
+            74520,
+            "打开DLSS5"
+          ],
+          [
+            76540,
+            "应接这个舞台"
+          ],
+          [
+            77740,
+            "Just ai ai ai"
+          ],
+          [
+            79598,
+            "just ai just ai"
+          ],
+          [
+            81741,
+            "ai ai just ai"
+          ]
+        ],
+        "audio": {
+          "path": "converted/AUDIO3.PCM",
+          "bytes": 8214528,
+          "sha256": "1b54628e25272910430757051fe46168ea9a641b74a12119d8a1fa07863e1619",
+          "lba": 1231166,
+          "cluster": 305449
+        },
+        "cover": {
+          "path": "converted/PIC3.BMP",
+          "bytes": 921654,
+          "sha256": "040e072dcf7a4c8a25b537a4ae8311e3655daed2629afd2b236dbea652095346",
+          "lba": 1229362,
+          "cluster": 304998
+        },
+        "mv": {
+          "path": "converted/TRACK3.MV",
+          "bytes": 131328000,
+          "frames": 855,
+          "fps": 10,
+          "sha256": "3d1e1e1712c669e5d6cdef2d790a5687653691563c9fca786af55ea5714b3e67",
+          "lba": 1247210,
+          "cluster": 309460
+        }
+      },
+      {
+        "slot": 3,
+        "title": "万疆",
+        "artist": "李玉刚",
+        "duration_ms": 243925,
+        "samples": 11708416,
+        "lyrics": [
+          [
+            3540,
+            "红日升在东方"
+          ],
+          [
+            6840,
+            "其大道满霞光"
+          ],
+          [
+            10540,
+            "我何其幸"
+          ],
+          [
+            12030,
+            "生于你怀 承一脉血流淌"
+          ],
+          [
+            17699,
+            "难同当 福共享"
+          ],
+          [
+            21169,
+            "挺立起了脊梁"
+          ],
+          [
+            24880,
+            "吾国万疆 以仁爱"
+          ],
+          [
+            28350,
+            "千年不灭的信仰"
+          ],
+          [
+            42720,
+            "写苍天 只写一角"
+          ],
+          [
+            46490,
+            "日与月悠长"
+          ],
+          [
+            49900,
+            "画大地"
+          ],
+          [
+            51660,
+            "只画一隅"
+          ],
+          [
+            53670,
+            "山与河无恙"
+          ],
+          [
+            57060,
+            "观万古 上下五千年"
+          ],
+          [
+            61220,
+            "天地共仰"
+          ],
+          [
+            64180,
+            "唯炎黄"
+          ],
+          [
+            65940,
+            "心坦荡"
+          ],
+          [
+            67740,
+            "一身到四方"
+          ],
+          [
+            73260,
+            "抚流光"
+          ],
+          [
+            74940,
+            "一砖一瓦"
+          ],
+          [
+            76920,
+            "岁月浸红墙"
+          ],
+          [
+            80580,
+            "叹枯荣"
+          ],
+          [
+            82110,
+            "一花一木悲喜"
+          ],
+          [
+            84990,
+            "经沧桑"
+          ],
+          [
+            87750,
+            "横八荒"
+          ],
+          [
+            89259,
+            "九州一色"
+          ],
+          [
+            91239,
+            "心中的故乡"
+          ],
+          [
+            94720,
+            "唯华夏 崭锋芒"
+          ],
+          [
+            98190,
+            "道路在盛放"
+          ],
+          [
+            103680,
+            "红日升在东方"
+          ],
+          [
+            107180,
+            "其大道满霞光"
+          ],
+          [
+            110800,
+            "我何其幸"
+          ],
+          [
+            112320,
+            "生于你"
+          ],
+          [
+            113640,
+            "怀 承一脉血流淌"
+          ],
+          [
+            118020,
+            "难同当 福共享"
+          ],
+          [
+            121460,
+            "挺立起了脊梁"
+          ],
+          [
+            125120,
+            "吾国万疆"
+          ],
+          [
+            127090,
+            "以仁爱 千年不灭的信仰"
+          ],
+          [
+            139499,
+            "抚流光"
+          ],
+          [
+            141199,
+            "一砖一瓦"
+          ],
+          [
+            143209,
+            "岁月浸红墙"
+          ],
+          [
+            146619,
+            "叹枯荣"
+          ],
+          [
+            148319,
+            "一花一木悲喜"
+          ],
+          [
+            151259,
+            "经沧桑"
+          ],
+          [
+            153779,
+            "横八荒"
+          ],
+          [
+            155539,
+            "九州一色"
+          ],
+          [
+            157489,
+            "心中的故乡"
+          ],
+          [
+            161040,
+            "唯华夏"
+          ],
+          [
+            162680,
+            "崭锋芒"
+          ],
+          [
+            164450,
+            "道路在盛放"
+          ],
+          [
+            169939,
+            "红日升在东方"
+          ],
+          [
+            173439,
+            "其大道满霞光"
+          ],
+          [
+            177080,
+            "我何其幸"
+          ],
+          [
+            178600,
+            "生于你"
+          ],
+          [
+            179980,
+            "怀 承一脉血流淌"
+          ],
+          [
+            184260,
+            "难同当 福共享"
+          ],
+          [
+            187730,
+            "挺立起了脊梁"
+          ],
+          [
+            191399,
+            "吾国万疆"
+          ],
+          [
+            193369,
+            "以仁爱 千年不灭的信仰"
+          ],
+          [
+            202200,
+            "红日升在东方"
+          ],
+          [
+            205700,
+            "其大道满霞光"
+          ]
+        ],
+        "audio": {
+          "path": "converted/AUDIO4.PCM",
+          "bytes": 23416832,
+          "sha256": "a0c586da8ffc4c3e3b66fa718470df34a26851584578bec668b0ef7ceecfdbf2",
+          "lba": 1505514,
+          "cluster": 374036
+        },
+        "cover": {
+          "path": "converted/PIC4.BMP",
+          "bytes": 921654,
+          "sha256": "f0e00efa64abbe5a0ec3eae47c19a72a9dc4b1663a998e301c806822affda10c",
+          "lba": 1503710,
+          "cluster": 373585
+        },
+        "mv": {
+          "path": "converted/TRACK4.MV",
+          "bytes": 374630400,
+          "frames": 2439,
+          "fps": 10,
+          "sha256": "7a60ba9a70b0e8b3aaaab725bbeae2d14f7035b94677fbb2d08dc5dc921640fb",
+          "lba": 1551250,
+          "cluster": 385470
+        }
+      }
+    ],
+    "background": {
+      "lba": 2282950,
+      "frames": 6,
+      "frame_bytes": 614400
+    },
+    "rom": {
+      "path": "rom",
+      "files_sha256": {
+        "ascii_font_rom.v": "663262e5d437e3d34c808bd418397cc8152de9fd7c107d8e181b787fc4ae922f",
+        "playback_layout.vh": "38079f3a4c2dae0d66c4453b98b33644ebc3d3783c38e2c349f3d30c2bfe95d3",
+        "profile.json": "ea35495afa75bf9a39047ca6023e62d847f6a8899e20b17f2fe4c5640f924ff7",
+        "song_font_rom.v": "dabdbcc799c742058b4b303bd2c40be8ea19a3445f4552da50806ff90a6c405f",
+        "song_text_geom.vh": "5fff58e96819148c3d02620329cb011f7b84886b745c3957f799c8f346686e1e",
+        "song_text_rom.v": "f94b8024c97e2f7d48f8199d75b100b42481c996aee98f6863f6434c3149f9fa",
+        "rtl/brightness_contrast_steps.v": "ec1bf8053b0e738cd02f9ffe4a3df2bc98e9413b90dc19bc067f6d2ef0b37ff1",
+        "rtl/lrc_five_osd.v": "2e23d8d49c8b5453450150a63995bc49458fe6b8efcfdb6a63f806706bf1e1c4",
+        "rtl/lrc_scroll_controller.v": "3dac4c507171ba919b8f566bb42338c6b9fe8d3b742b4fef40d8773f6cb7da48",
+        "rtl/playback_background.v": "c798b7781bd895ff0ec0311e96476480fc21af58f18762fe2301e607b17c4f5f",
+        "rtl/playback_page.v": "1d1533cb919b1d06c5b553c1a1c55c04f4349453b18cb3751e0d5cb770ac97c5",
+        "rtl/promax_audio_waveform.v": "5f47133af25d173a7a922a59f870c86f53625b373e71cf9ccc7fba586ad1bef2"
+      }
+    },
+    "firmware": {
+      "status": "frozen",
+      "compatible": true,
+      "differences": [],
+      "bit_sha256": "1801a8d36429fe767c0d7e510db0edfed86faaccdba966c8843e043aba39dad5"
+    },
+    "validation": {
+      "passed": true,
+      "count": 4,
+      "files": {
+        "INDEX.BIN": {
+          "cluster": 3,
+          "lba": 9382,
+          "bytes": 512,
+          "runs": [
+            [
+              9382,
+              4
+            ]
+          ],
+          "crc32": 3929937272,
+          "sha256": "642d7f1f81d5a3d09fd0adfab57e10b6a24ddcf02459f5a2c39e701dc0d38f34"
+        },
+        "PIC1.BMP": {
+          "cluster": 4,
+          "lba": 9386,
+          "bytes": 921654,
+          "runs": [
+            [
+              9386,
+              1804
+            ]
+          ],
+          "crc32": 3659285172,
+          "sha256": "f628e4d600c9d0be1f46c36377238cee15ff1caa7cbb607ab8a3ebdde28d5ee9"
+        },
+        "AUDIO.PCM": {
+          "cluster": 455,
+          "lba": 11190,
+          "bytes": 20381696,
+          "runs": [
+            [
+              11190,
+              39808
+            ]
+          ],
+          "crc32": 1061056028,
+          "sha256": "e41edee911a79d0c30c50391475aabed000581d6461d30816d3f6d9971dec996"
+        },
+        "TRACK1.MV": {
+          "cluster": 10407,
+          "lba": 50998,
+          "bytes": 326092800,
+          "runs": [
+            [
+              50998,
+              636900
+            ]
+          ],
+          "crc32": 1274609403,
+          "sha256": "5301cd36891ddf09160ca4cc10617f778a24a02dbdfd202e174a84c828fe09c7"
+        },
+        "PIC2.BMP": {
+          "cluster": 169632,
+          "lba": 687898,
+          "bytes": 921654,
+          "runs": [
+            [
+              687898,
+              1804
+            ]
+          ],
+          "crc32": 4022373551,
+          "sha256": "e0938830e6b93cb9ba6fbb7c5d43806e9536dfe070b728493752434b0965f02b"
+        },
+        "AUDIO2.PCM": {
+          "cluster": 170083,
+          "lba": 689702,
+          "bytes": 16259170,
+          "runs": [
+            [
+              689702,
+              31760
+            ]
+          ],
+          "crc32": 3595919277,
+          "sha256": "538902881020f29e5eae0cdf161a8bb868f9042dc4545709203fa8bcb5b0c0d5"
+        },
+        "TRACK2.MV": {
+          "cluster": 178023,
+          "lba": 721462,
+          "bytes": 260044800,
+          "runs": [
+            [
+              721462,
+              507900
+            ]
+          ],
+          "crc32": 407430848,
+          "sha256": "8db259b524ea3aa65f380d4718404d80ddfd23f94d3d183b21b83a5929ae3569"
+        },
+        "PIC3.BMP": {
+          "cluster": 304998,
+          "lba": 1229362,
+          "bytes": 921654,
+          "runs": [
+            [
+              1229362,
+              1804
+            ]
+          ],
+          "crc32": 1619035868,
+          "sha256": "040e072dcf7a4c8a25b537a4ae8311e3655daed2629afd2b236dbea652095346"
+        },
+        "AUDIO3.PCM": {
+          "cluster": 305449,
+          "lba": 1231166,
+          "bytes": 8214528,
+          "runs": [
+            [
+              1231166,
+              16044
+            ]
+          ],
+          "crc32": 3651844478,
+          "sha256": "1b54628e25272910430757051fe46168ea9a641b74a12119d8a1fa07863e1619"
+        },
+        "TRACK3.MV": {
+          "cluster": 309460,
+          "lba": 1247210,
+          "bytes": 131328000,
+          "runs": [
+            [
+              1247210,
+              256500
+            ]
+          ],
+          "crc32": 4088258664,
+          "sha256": "3d1e1e1712c669e5d6cdef2d790a5687653691563c9fca786af55ea5714b3e67"
+        },
+        "PIC4.BMP": {
+          "cluster": 373585,
+          "lba": 1503710,
+          "bytes": 921654,
+          "runs": [
+            [
+              1503710,
+              1804
+            ]
+          ],
+          "crc32": 3257831498,
+          "sha256": "f0e00efa64abbe5a0ec3eae47c19a72a9dc4b1663a998e301c806822affda10c"
+        },
+        "AUDIO4.PCM": {
+          "cluster": 374036,
+          "lba": 1505514,
+          "bytes": 23416832,
+          "runs": [
+            [
+              1505514,
+              45736
+            ]
+          ],
+          "crc32": 3522551852,
+          "sha256": "a0c586da8ffc4c3e3b66fa718470df34a26851584578bec668b0ef7ceecfdbf2"
+        },
+        "TRACK4.MV": {
+          "cluster": 385470,
+          "lba": 1551250,
+          "bytes": 374630400,
+          "runs": [
+            [
+              1551250,
+              731700
+            ]
+          ],
+          "crc32": 2417855799,
+          "sha256": "7a60ba9a70b0e8b3aaaab725bbeae2d14f7035b94677fbb2d08dc5dc921640fb"
+        },
+        "BG.BIN": {
+          "cluster": 568395,
+          "lba": 2282950,
+          "bytes": 3686400,
+          "runs": [
+            [
+              2282950,
+              7200
+            ]
+          ],
+          "crc32": 3844366407,
+          "sha256": "369b9700bfdc3554807f04a82217451341fb9d4aa988c65b5728b59a75b0b43f"
+        },
+        "LYRICS.BIN": {
+          "cluster": 570195,
+          "lba": 2290150,
+          "bytes": 6154,
+          "runs": [
+            [
+              2290150,
+              16
+            ]
+          ],
+          "crc32": 558161692,
+          "sha256": "a5f535f6b9fc0fbcd1559715748a914eaa72e977a3248420d5247e9812a3074c"
+        }
+      },
+      "background": {
+        "lba": 2282950,
+        "frames": 6,
+        "frame_bytes": 614400
+      },
+      "layout": "FAT32 superfloppy",
+      "sectors_per_cluster": 4,
+      "entries_crc32": "ce9a7074",
+      "matches_converted": true,
+      "expected_files_sha256": {
+        "AUDIO.PCM": "e41edee911a79d0c30c50391475aabed000581d6461d30816d3f6d9971dec996",
+        "AUDIO2.PCM": "538902881020f29e5eae0cdf161a8bb868f9042dc4545709203fa8bcb5b0c0d5",
+        "AUDIO3.PCM": "1b54628e25272910430757051fe46168ea9a641b74a12119d8a1fa07863e1619",
+        "AUDIO4.PCM": "a0c586da8ffc4c3e3b66fa718470df34a26851584578bec668b0ef7ceecfdbf2",
+        "BG.BIN": "369b9700bfdc3554807f04a82217451341fb9d4aa988c65b5728b59a75b0b43f",
+        "LYRICS.BIN": "a5f535f6b9fc0fbcd1559715748a914eaa72e977a3248420d5247e9812a3074c",
+        "PIC1.BMP": "f628e4d600c9d0be1f46c36377238cee15ff1caa7cbb607ab8a3ebdde28d5ee9",
+        "PIC2.BMP": "e0938830e6b93cb9ba6fbb7c5d43806e9536dfe070b728493752434b0965f02b",
+        "PIC3.BMP": "040e072dcf7a4c8a25b537a4ae8311e3655daed2629afd2b236dbea652095346",
+        "PIC4.BMP": "f0e00efa64abbe5a0ec3eae47c19a72a9dc4b1663a998e301c806822affda10c",
+        "TRACK1.MV": "5301cd36891ddf09160ca4cc10617f778a24a02dbdfd202e174a84c828fe09c7",
+        "TRACK2.MV": "8db259b524ea3aa65f380d4718404d80ddfd23f94d3d183b21b83a5929ae3569",
+        "TRACK3.MV": "3d1e1e1712c669e5d6cdef2d790a5687653691563c9fca786af55ea5714b3e67",
+        "TRACK4.MV": "7a60ba9a70b0e8b3aaaab725bbeae2d14f7035b94677fbb2d08dc5dc921640fb",
+        "INDEX.BIN": "642d7f1f81d5a3d09fd0adfab57e10b6a24ddcf02459f5a2c39e701dc0d38f34"
+      }
+    },
+    "sources": {
+      "inputs/AUDIO.PCM": {
+        "bytes": 20381696,
+        "mtime_ns": 1792660665423267400,
+        "sha256": "e41edee911a79d0c30c50391475aabed000581d6461d30816d3f6d9971dec996"
+      },
+      "inputs/PIC1.BMP": {
+        "bytes": 921654,
+        "mtime_ns": 1792660665381563000,
+        "sha256": "f628e4d600c9d0be1f46c36377238cee15ff1caa7cbb607ab8a3ebdde28d5ee9"
+      },
+      "inputs/TRACK1.mp4": {
+        "bytes": 51973319,
+        "mtime_ns": 1792660665449690500,
+        "sha256": "7dc42c7d9e040406304698531be0b32936117c0d5e7aac94c6c28cdffeebddad"
+      },
+      "inputs/track1.lrc": {
+        "bytes": 3147,
+        "mtime_ns": 1792660665449690500,
+        "sha256": "c9ccf77a9b79f5c3ea7e006fd1666be0d83ea76dbdbb374ef4fd20fd9aebd473"
+      },
+      "inputs/AUDIO2.PCM": {
+        "bytes": 16259170,
+        "mtime_ns": 1792660665487451300,
+        "sha256": "538902881020f29e5eae0cdf161a8bb868f9042dc4545709203fa8bcb5b0c0d5"
+      },
+      "inputs/PIC2.BMP": {
+        "bytes": 921654,
+        "mtime_ns": 1792660665452168100,
+        "sha256": "e0938830e6b93cb9ba6fbb7c5d43806e9536dfe070b728493752434b0965f02b"
+      },
+      "inputs/TRACK2.mp4": {
+        "bytes": 60262965,
+        "mtime_ns": 1792660665515763600,
+        "sha256": "9d746cccef161fc73a314cf4fcb47dc330ae084260aeaf288c86175cb41709df"
+      },
+      "inputs/track2.lrc": {
+        "bytes": 2421,
+        "mtime_ns": 1792660665516763100,
+        "sha256": "72101b5cd2c9506432cecaceacc9348920fc452f8a95635d1d8c0308bb1b77b0"
+      },
+      "inputs/AUDIO3.PCM": {
+        "bytes": 8214528,
+        "mtime_ns": 1792660665537836200,
+        "sha256": "1b54628e25272910430757051fe46168ea9a641b74a12119d8a1fa07863e1619"
+      },
+      "inputs/PIC3.BMP": {
+        "bytes": 921654,
+        "mtime_ns": 1792660665519762800,
+        "sha256": "040e072dcf7a4c8a25b537a4ae8311e3655daed2629afd2b236dbea652095346"
+      },
+      "inputs/TRACK3.mp4": {
+        "bytes": 14064245,
+        "mtime_ns": 1792660665547546700,
+        "sha256": "f13da00e373895dbd42c93ba48eeb536e597b46d6b5754bfac400f93afbb0b10"
+      },
+      "inputs/track3.lrc": {
+        "bytes": 698,
+        "mtime_ns": 1792660665549167200,
+        "sha256": "5d1b8a356173a98a047f997d23e502401296c081218867e3ac92ef37c2fb6fb9"
+      },
+      "inputs/AUDIO4.PCM": {
+        "bytes": 23416832,
+        "mtime_ns": 1792660665599567900,
+        "sha256": "a0c586da8ffc4c3e3b66fa718470df34a26851584578bec668b0ef7ceecfdbf2"
+      },
+      "inputs/PIC4.BMP": {
+        "bytes": 921654,
+        "mtime_ns": 1792660665551762000,
+        "sha256": "f0e00efa64abbe5a0ec3eae47c19a72a9dc4b1663a998e301c806822affda10c"
+      },
+      "inputs/TRACK4.mp4": {
+        "bytes": 49539644,
+        "mtime_ns": 1792660665621773500,
+        "sha256": "2d96322e4eec19f7a5099c4ad96d68307237ed71f0bddd060241918fb860f2f8"
+      },
+      "inputs/track4.lrc": {
+        "bytes": 1732,
+        "mtime_ns": 1792660665624140200,
+        "sha256": "263890dd1700ac1e7de46b186fa1481e325ed17aa7eeee9b14d20938b9426d72"
+      }
+    }
+  }
+}

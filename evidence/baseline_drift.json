@@ -1,0 +1,27 @@
+{
+  "snapshot_utc": "2026-10-22T12:44:56.297851+00:00",
+  "current_repository_matches_frozen_baseline": false,
+  "files": [
+    {
+      "path": "src/top_tf_hdmi_audio.v",
+      "frozen_sha256": "3fad646a8839b2442b2a5e65066cd70cbc43f58e6c849f775ede73df558eafd9",
+      "current_sha256": "8c9c663fdd6d8ed68d1d84953a9f83babce4535b59492a30c5b1a3a0af413052"
+    },
+    {
+      "path": "src/display/lrc_five_osd.v",
+      "frozen_sha256": "2e23d8d49c8b5453450150a63995bc49458fe6b8efcfdb6a63f806706bf1e1c4",
+      "current_sha256": "00af3d3dd93d2a52bd64af473f0e1579cbfd5154f593c6d2df5bf30331b66550"
+    },
+    {
+      "path": "src/display/playback_page.v",
+      "frozen_sha256": "1d1533cb919b1d06c5b553c1a1c55c04f4349453b18cb3751e0d5cb770ac97c5",
+      "current_sha256": "3301f6931a0632baee8b2f7cedfefdb022e41fe2d1ca5bb95c30d106bf80694e"
+    },
+    {
+      "path": "src/io/ui_event_bridge.v",
+      "frozen_sha256": "73fd596fccf871e596bc9169a29207c80dae0dd9cb71dfe9e30d301a12e66852",
+      "current_sha256": "bcaeac8a90250d549a7ed3482545915778ed2cd4f42130847da7b7bd4f61436f"
+    }
+  ],
+  "scope": "Tool preserves the accepted frozen firmware profile. Concurrent KEY6 lyric-focus RTL development is outside that profile; no original FPGA files are written by this packaging script."
+}

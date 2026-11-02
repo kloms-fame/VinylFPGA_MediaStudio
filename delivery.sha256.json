@@ -1,0 +1,1960 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 155,
+      "sha256": "fcfbb4de8cc0c83412f55c57042587f369333540ac1faaec79d87e6a8c04b422"
+    },
+    {
+      "path": "README.md",
+      "bytes": 821,
+      "sha256": "52773bce229ec4400ca8f0068e0466fe14151c0fa6c5ee099fbcc6af19935f15"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 15,
+      "sha256": "ae3337e5ae362bf1fad83355272ff595b58aae13d7a7ac67617f6f3161fa0c07"
+    },
+    {
+      "path": "使用说明.md",
+      "bytes": 10727,
+      "sha256": "063b715d55c4fe72eb1c23ce457cb6ca29a68e79bfd779c8c2f997465842e7ea"
+    },
+    {
+      "path": "验收报告.md",
+      "bytes": 6065,
+      "sha256": "27c52f086c5c845422ecc3c995f36ab93376e046f48ebf252fecb830ab40b4fc"
+    },
+    {
+      "path": "设计方案.md",
+      "bytes": 10375,
+      "sha256": "f3fe9842407c303528cdbbf163bb0ce0a54f2d525b271de83b517a80592eb24b"
+    },
+    {
+      "path": "实施计划.md",
+      "bytes": 13330,
+      "sha256": "d61cfb1fe6882c20f2cc13b5c26ade0ce518a6f84877921fd5abf31ddfc278e8"
+    },
+    {
+      "path": "启动工具.cmd",
+      "bytes": 125,
+      "sha256": "7706b2e4ad85857f0cc1d5533c818c1d3d0bfa708563dcf534c86299fe8275c6"
+    },
+    {
+      "path": "evidence/full_album.json",
+      "bytes": 38314,
+      "sha256": "6e206a44b640aa5b180d594d5b768dd86ce7a06cb0009477f1d03f9902bf584c"
+    },
+    {
+      "path": "evidence/SynthPilot_llms_20261022.txt",
+      "bytes": 5104,
+      "sha256": "00dc1f7452a8f4c5d8996ddeb0866baa070080ecbfdbc1b9e72c541d66369975"
+    },
+    {
+      "path": "evidence/baseline_drift.json",
+      "bytes": 1305,
+      "sha256": "7d8db629a046ef387f9eb87511b3cf39156108e03012999eca6e7e7bae3fe2df"
+    },
+    {
+      "path": "src/launcher.py",
+      "bytes": 2031,
+      "sha256": "e5dfb5ee8c9304df392d821311b649432a255830a2c30e9fd49b57d1b4fe0503"
+    },
+    {
+      "path": "src/studio/build.py",
+      "bytes": 20327,
+      "sha256": "183f75e9b5db7a5229e67bcfd86f4322977e28940e7bc7f79728d7d18613dab3"
+    },
+    {
+      "path": "src/studio/devices.py",
+      "bytes": 7100,
+      "sha256": "5154b8bf5ad8d0e6bf77381ebf52b00c34abc3bf78b71aab658f195714792385"
+    },
+    {
+      "path": "src/studio/fat32.py",
+      "bytes": 5383,
+      "sha256": "ed603b9e552de44404ffa9abd35a10c80d81de2f63438810b8bc7a8eb81972c5"
+    },
+    {
+      "path": "src/studio/jobs.py",
+      "bytes": 2441,
+      "sha256": "1c00d520cc1ebc2f852faa9b740ff8499c2ba955df7ebb24a790647a8bdd0542"
+    },
+    {
+      "path": "src/studio/lyrics.py",
+      "bytes": 3568,
+      "sha256": "c0f5b3d99f51dd552176e7720051788d144efd16bec2666f075f3d0bf8c75f17"
+    },
+    {
+      "path": "src/studio/media.py",
+      "bytes": 5230,
+      "sha256": "35290e1a43a8490753881669f4d5659a48943d7454ed8ffef93f3c8b2c4c2793"
+    },
+    {
+      "path": "src/studio/paths.py",
+      "bytes": 2521,
+      "sha256": "c44d861babe8dc93c6418d076cf89bcac24b02f856925eae3c258274d1650a0a"
+    },
+    {
+      "path": "src/studio/preview.py",
+      "bytes": 14128,
+      "sha256": "9f44e3d1c3b1e9091f8a742422fef5e5df3cda4857644304c7fcac14e3b80f54"
+    },
+    {
+      "path": "src/studio/project.py",
+      "bytes": 3132,
+      "sha256": "7e7e5e32437000ac4b2584b675f7debeccd992ccdff02fb8f6ab8d8ffbeea237"
+    },
+    {
+      "path": "src/studio/rom.py",
+      "bytes": 2696,
+      "sha256": "7b53a6f7e48d751db22a45fa6efc34a110a4d75d1bb77b150943a45252813bcb"
+    },
+    {
+      "path": "src/studio/server.py",
+      "bytes": 22895,
+      "sha256": "804c94a1b8c3530a9c72c30f3d7afdb94f52ab311dc29830009c321b7c8b231c"
+    },
+    {
+      "path": "src/studio/__init__.py",
+      "bytes": 80,
+      "sha256": "a923699ab2774c5f6409eb1a1b0ea7a0996af5fffb5a5521aa3b39702e62bddb"
+    },
+    {
+      "path": "web/app.js",
+      "bytes": 28189,
+      "sha256": "7e48919da2913b416f24e2fff6fe5486ba46b85448142758a536b71b1995dc2d"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 13469,
+      "sha256": "97288f1d88f1de232ec5c5259c0900954194567b00fbe7a2341ae2eca162d336"
+    },
+    {
+      "path": "web/pixel-compare.js",
+      "bytes": 1259,
+      "sha256": "f4337c7de23d1a0123021394daee360efe3f95fee603f22c044d22ff66c0a619"
+    },
+    {
+      "path": "web/style.css",
+      "bytes": 13803,
+      "sha256": "4adcc2df8e94550218fbf6308f9f0baac9c9fe837a4136bfa7737721a3928296"
+    },
+    {
+      "path": "vendor/gen_lrc_assets.py",
+      "bytes": 24183,
+      "sha256": "ece0deb71792a4e93688a0a9b0aa5a742d4034eb78f6abb9bc48dde7c31f8eec"
+    },
+    {
+      "path": "vendor/PROVENANCE.json",
+      "bytes": 578,
+      "sha256": "bbd755ca9490a323fe145ad4b5a14b3e0404315ed72dbe0a3204596597bb387f"
+    },
+    {
+      "path": "vendor/safe_raw_writer.py",
+      "bytes": 26809,
+      "sha256": "be24df21b4284a0f2f88142f5237a7a4b437275c0effd806736f2097e8310845"
+    },
+    {
+      "path": "vendor/vinyl_packer.py",
+      "bytes": 33472,
+      "sha256": "185fb21e1b6b44c111bf2a9965693ae15b6792195ba7a66b9a81a6e0f21aee66"
+    },
+    {
+      "path": "profiles/frozen/ascii_font_rom.v",
+      "bytes": 8946,
+      "sha256": "663262e5d437e3d34c808bd418397cc8152de9fd7c107d8e181b787fc4ae922f"
+    },
+    {
+      "path": "profiles/frozen/playback_layout.vh",
+      "bytes": 1907,
+      "sha256": "38079f3a4c2dae0d66c4453b98b33644ebc3d3783c38e2c349f3d30c2bfe95d3"
+    },
+    {
+      "path": "profiles/frozen/profile.json",
+      "bytes": 22027,
+      "sha256": "ea35495afa75bf9a39047ca6023e62d847f6a8899e20b17f2fe4c5640f924ff7"
+    },
+    {
+      "path": "profiles/frozen/song_font_rom.v",
+      "bytes": 277872,
+      "sha256": "dabdbcc799c742058b4b303bd2c40be8ea19a3445f4552da50806ff90a6c405f"
+    },
+    {
+      "path": "profiles/frozen/song_text_geom.vh",
+      "bytes": 350,
+      "sha256": "5fff58e96819148c3d02620329cb011f7b84886b745c3957f799c8f346686e1e"
+    },
+    {
+      "path": "profiles/frozen/song_text_rom.v",
+      "bytes": 111328,
+      "sha256": "f94b8024c97e2f7d48f8199d75b100b42481c996aee98f6863f6434c3149f9fa"
+    },
+    {
+      "path": "profiles/frozen/rtl/brightness_contrast_steps.v",
+      "bytes": 3175,
+      "sha256": "ec1bf8053b0e738cd02f9ffe4a3df2bc98e9413b90dc19bc067f6d2ef0b37ff1"
+    },
+    {
+      "path": "profiles/frozen/rtl/lrc_five_osd.v",
+      "bytes": 7103,
+      "sha256": "2e23d8d49c8b5453450150a63995bc49458fe6b8efcfdb6a63f806706bf1e1c4"
+    },
+    {
+      "path": "profiles/frozen/rtl/lrc_scroll_controller.v",
+      "bytes": 3508,
+      "sha256": "3dac4c507171ba919b8f566bb42338c6b9fe8d3b742b4fef40d8773f6cb7da48"
+    },
+    {
+      "path": "profiles/frozen/rtl/playback_background.v",
+      "bytes": 2519,
+      "sha256": "c798b7781bd895ff0ec0311e96476480fc21af58f18762fe2301e607b17c4f5f"
+    },
+    {
+      "path": "profiles/frozen/rtl/playback_page.v",
+      "bytes": 24466,
+      "sha256": "1d1533cb919b1d06c5b553c1a1c55c04f4349453b18cb3751e0d5cb770ac97c5"
+    },
+    {
+      "path": "profiles/frozen/rtl/promax_audio_waveform.v",
+      "bytes": 8505,
+      "sha256": "5f47133af25d173a7a922a59f870c86f53625b373e71cf9ccc7fba586ad1bef2"
+    },
+    {
+      "path": "resources/dependencies.json",
+      "bytes": 1006,
+      "sha256": "d567dbe6ebec0a35091bf676340bed169fa2635218290d1385eb54eb84090700"
+    },
+    {
+      "path": "resources/bin/FFmpeg-LICENSE.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "resources/bin/FFmpeg-README.txt",
+      "bytes": 40985,
+      "sha256": "a0e976df3cf1d781264c41db8ee3421978c1278be92ed00edbc96337529670be"
+    },
+    {
+      "path": "resources/bin/ffmpeg.exe",
+      "bytes": 99264000,
+      "sha256": "5af82a0d4fe2b9eae211b967332ea97edfc51c6b328ca35b827e73eac560dc0d"
+    },
+    {
+      "path": "resources/bin/ffprobe.exe",
+      "bytes": 99066368,
+      "sha256": "192a1d6899059765ac8c39764fc3148d4e6049955956dc2029f81f4bd6a8972d"
+    },
+    {
+      "path": "resources/fonts/NotoSansCJKsc-Regular.otf",
+      "bytes": 16437364,
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "path": "resources/fonts/OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "resources/licenses/Pillow-LICENSE.txt",
+      "bytes": 78481,
+      "sha256": "988ffe8ab3480b0f4e9a0ab2702bffd73d9fb6b47198043fb3ba101a62fac236"
+    },
+    {
+      "path": "resources/licenses/Python-LICENSE.txt",
+      "bytes": 13809,
+      "sha256": "78b12c3a81360b357002334f0e70ea0e92eebf7a9b358805c03c48484945f3bb"
+    },
+    {
+      "path": "tests/test_build.py",
+      "bytes": 11379,
+      "sha256": "0f01e8dbebff88a0a1c6bad719f69d4b33c1c6314da57efa6c67f90ed86314ef"
+    },
+    {
+      "path": "tests/test_devices.py",
+      "bytes": 4459,
+      "sha256": "9057f0c23f323dc07da3b993e855abad095bc80e71dbe543fe1ce593afe0565d"
+    },
+    {
+      "path": "tests/test_fat32.py",
+      "bytes": 3177,
+      "sha256": "786c78c456badca1a4a2651392639d16991bcb08bf6eb594fc6adcef56973f86"
+    },
+    {
+      "path": "tests/test_launcher.py",
+      "bytes": 1410,
+      "sha256": "e7af2ce32e35485e3604f88397af4b0159843cc1b8286270021cb0b9ab4daf5b"
+    },
+    {
+      "path": "tests/test_lyrics.py",
+      "bytes": 1713,
+      "sha256": "4214b20be158a9ae3ca0ac608efd58af18d1fb588e0e54c51c78f18a54b4b75f"
+    },
+    {
+      "path": "tests/test_preview.py",
+      "bytes": 3868,
+      "sha256": "00aafb309e262889ed97315001935ddb2bc2ea088998965eae97ba5e2f2c37a7"
+    },
+    {
+      "path": "tests/test_project.py",
+      "bytes": 2423,
+      "sha256": "17e5e0fb5ad6e9195a00224cae5af6a33812f48d83134ea624d8948c8aea216a"
+    },
+    {
+      "path": "tests/test_server.py",
+      "bytes": 10394,
+      "sha256": "cafd7209e9e11904836e5b7fc2f5f5eab83d7a30c2815e3039906caa970999aa"
+    },
+    {
+      "path": "tests/test_vendor_writer.py",
+      "bytes": 15179,
+      "sha256": "c7e95f9565a7d0f1b6df97f8d340a9f3fb443a90d105193493bdbe3fd321ee08"
+    },
+    {
+      "path": "tests/rtl/mv_stream_player_reference.v",
+      "bytes": 4563,
+      "sha256": "114900adc279a05ccdf8d1aa63389f5844cac39de742da07d08ea4cb15ffadac"
+    },
+    {
+      "path": "tests/rtl/tb_preview_frame.v",
+      "bytes": 3496,
+      "sha256": "14393bcd3472702ca3c71764a40135151d2e9c1f6cb61611b95ef967e7ba9b47"
+    },
+    {
+      "path": "tests/rtl/tb_rgb565.v",
+      "bytes": 962,
+      "sha256": "77a918a32725ddb9bef6bd7351c66dc0d174443529a48cc3f969fb175bdc7897"
+    },
+    {
+      "path": "scripts/build_existing_album.py",
+      "bytes": 3369,
+      "sha256": "42a0284672b48ddff763c7cdb0418e9fda949e55fccfb8b64eeca98f2b799ee8"
+    },
+    {
+      "path": "scripts/build_portable.py",
+      "bytes": 1623,
+      "sha256": "6d8551f9956c2bb50066eeb6dcd72486103bb8f5a6eb94220b27e18f038a1f2c"
+    },
+    {
+      "path": "scripts/capture_bundled_album.py",
+      "bytes": 1621,
+      "sha256": "0760ee0c0970a12ad9a3ab9f123e78cb5da27516330a9dcc6f61fcb04375b0e3"
+    },
+    {
+      "path": "scripts/capture_ui.py",
+      "bytes": 3517,
+      "sha256": "67aad2273abd56a3ef7c6b15c5ca40f586f1bac3a762630e9faf70d3a0447b49"
+    },
+    {
+      "path": "scripts/package_delivery.py",
+      "bytes": 8380,
+      "sha256": "170d485f93228466f659226e286c54292218f83c3934001cbe0107579bf051d9"
+    },
+    {
+      "path": "scripts/prepare_dependencies.py",
+      "bytes": 1685,
+      "sha256": "6e879a3bbff18fc9870e1bcf8c0260ff58c3f70b544c2fcd98dfa36a864fde79"
+    },
+    {
+      "path": "scripts/run_checks.py",
+      "bytes": 1480,
+      "sha256": "1caefa4843c795fb97f18f6071837928be548d8d6674ace93d173b38cde7ef05"
+    },
+    {
+      "path": "scripts/test_frontend.py",
+      "bytes": 5400,
+      "sha256": "c4ccf58530ed2555d6381d153200e373712f0b3b4b58e589f5a9cb41b54c5116"
+    },
+    {
+      "path": "scripts/test_pixel_compare.js",
+      "bytes": 818,
+      "sha256": "cb1f7896a627c6b679375da939d48d9579787a42a010f4981ccb80f5fa5fafdf"
+    },
+    {
+      "path": "scripts/test_portable.py",
+      "bytes": 9493,
+      "sha256": "450ef79cce3b2fc146404e65f61320d3d89710625709d375bd63f2c7c37d34a2"
+    },
+    {
+      "path": "scripts/verify_preview_rtl.py",
+      "bytes": 8996,
+      "sha256": "9ee3f2bb68dd4f0d480c92f30f012d2ebb5a0a2330f95d2e0758ce71ad19d9b6"
+    },
+    {
+      "path": "packaging/bootstrap_profile.py",
+      "bytes": 3334,
+      "sha256": "5a44c7b0dc695fcf7f46313a4b4fa5a041df7941d8f4c1cc9921dafa2efd25a9"
+    },
+    {
+      "path": "packaging/build_portable.ps1",
+      "bytes": 359,
+      "sha256": "d2c347111b3aa1e7807558ceec70824e730b9e13afcec2b1f252f4e5d7110a6e"
+    },
+    {
+      "path": "packaging/MediaStudio.spec",
+      "bytes": 784,
+      "sha256": "e934e9a4a7ea4e44f456bd15683b49de3318337c6dc52f1e5b648a9ffbc3bc58"
+    },
+    {
+      "path": "packaging/requirements-build.txt",
+      "bytes": 35,
+      "sha256": "622f5fb48e3e48e69754b47235e2907e10e426f6b064f2ce15731802ae361b75"
+    },
+    {
+      "path": "packaging/便携版开始使用.md",
+      "bytes": 1231,
+      "sha256": "21cd0fe731b55da3029f10e2b388f324065a8caf3837369d681653e3d08457ea"
+    },
+    {
+      "path": "packaging/第三方组件说明.md",
+      "bytes": 1235,
+      "sha256": "4a51e608b5caba3422489adc6659c96873d468d0bf590db2d5ece800fa173d62"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/bundle.sha256.json",
+      "bytes": 18684,
+      "sha256": "019da871f59f9146ccfcf618d88a2ebc38e6f28c6dc0e7edb7794f2ab42cd433"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/VinylFPGA_MediaStudio.exe",
+      "bytes": 2877361,
+      "sha256": "a7fe3537d2bc72029b540cc13029ad5f02edee38e48bf8e4f6873d4102cffbdf"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/使用说明.md",
+      "bytes": 10727,
+      "sha256": "063b715d55c4fe72eb1c23ce457cb6ca29a68e79bfd779c8c2f997465842e7ea"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/便携版开始使用.md",
+      "bytes": 1231,
+      "sha256": "21cd0fe731b55da3029f10e2b388f324065a8caf3837369d681653e3d08457ea"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/第三方组件说明.md",
+      "bytes": 1235,
+      "sha256": "4a51e608b5caba3422489adc6659c96873d468d0bf590db2d5ece800fa173d62"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/验收报告.md",
+      "bytes": 6065,
+      "sha256": "27c52f086c5c845422ecc3c995f36ab93376e046f48ebf252fecb830ab40b4fc"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-console-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "6df76986aec08e89ea037bc5271caaa82c69bd7eefba4fc293f92de1b1213e5e"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-datetime-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "c541697c3e9086c6483e88d9cc8fe8a2efc74f663da0b0662babc04d3f79000f"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-debug-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "fed0c40d172de4de52dc2230c5c92fd6bc8e8553619d5bb5240dcc4f025dc8cf"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-errorhandling-l1-1-0.dll",
+      "bytes": 21976,
+      "sha256": "cdae6e7d24d4ca4b491d483135740cc60f2dfc74dd2e01779e655b9f8f85a337"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-fibers-l1-1-0.dll",
+      "bytes": 21992,
+      "sha256": "cbb6cb7ff25363b07647ea05d01f2881837d50b04bba4debe875a4aa3a307c52"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-fibers-l1-1-1.dll",
+      "bytes": 22872,
+      "sha256": "5ef70308bcca628ce6b0e2856b15b1c7ae340c3f9bbbc4c1071d8c191a34a5c3"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-file-l1-1-0.dll",
+      "bytes": 26088,
+      "sha256": "02c96dde747ea574fecfb93d43dd9829236a1b22f0eb5513c0e0b27b7bdac934"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-file-l1-2-0.dll",
+      "bytes": 21976,
+      "sha256": "682968c7640a1d55485b7c10dfdaf520b1e1c73a8be267853e80be893be3fb49"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-file-l2-1-0.dll",
+      "bytes": 21976,
+      "sha256": "45a0eb1b83f448054536d3aa628393b7418477897e841c66384ecc7f4f18c2f2"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-handle-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "9986a39b7f2e067ee7d1f2b3db0b940e2b75900152f099ff41cce8ddd47565e0"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-heap-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "54b51444c8b6c9342fd20f5a5b0909a906acd0bdc9cf4d70134d5f8cffbe3209"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-interlocked-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "ff341ef2c2c389d44bbb1c919ff42ec360015985c0dae2ac760ac5acad0cb1d1"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-kernel32-legacy-l1-1-1.dll",
+      "bytes": 22888,
+      "sha256": "5200b16cb2ddc61cfc07373a9a84aa85a3ab50806ca96c879c883275832944c1"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-libraryloader-l1-1-0.dll",
+      "bytes": 22008,
+      "sha256": "6cbc929f814d7e931e0f6f510da1696b059c53bf66934a68d218d3342ce4a289"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-localization-l1-2-0.dll",
+      "bytes": 21984,
+      "sha256": "3ddbcd067d495845b7134f30bcea031ad558df4acb562b2f3190941913227158"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-memory-l1-1-0.dll",
+      "bytes": 21976,
+      "sha256": "bfa2145c3d615540193a41c9f9605018062307e9fcf1665c390f0034178ecb4a"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-namedpipe-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "4fcb066de08f48a490e7d50417469ab3099b4a7fe318a8845e4ec9b3e3fd52be"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-processenvironment-l1-1-0.dll",
+      "bytes": 22008,
+      "sha256": "f3a31997c715dec8a6857d87be217c7acb893839156838ba20b5ef818ad5c9b1"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-processthreads-l1-1-0.dll",
+      "bytes": 21976,
+      "sha256": "470e9d04a1aa19c6b84b5b10cb055ff55caabe0f45d63090865c196b66c295f5"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-processthreads-l1-1-1.dll",
+      "bytes": 21976,
+      "sha256": "4e57ceffbc2ef0e4dbfb92854756f97d2b34d9e29db16f46c476ed360b92b1cc"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-profile-l1-1-0.dll",
+      "bytes": 21992,
+      "sha256": "0a3a017ca780353d56157682edda4cc3a19a236625fe0f2356faf635cd4f6ace"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-rtlsupport-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "243c00a13c8fd6d764ebf22ec5a93492043949616561697b776fe9f62360665b"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-string-l1-1-0.dll",
+      "bytes": 21976,
+      "sha256": "be439f71ed591f8f65b8894e84569cf3cc3363d88536e49bdd998e49e069d0e8"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-synch-l1-1-0.dll",
+      "bytes": 21976,
+      "sha256": "83e86bee356668319f4115846ed9a571cdb37cd8a0eb036fc2a960bdeafcb526"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-synch-l1-2-0.dll",
+      "bytes": 21976,
+      "sha256": "718bbb66ed24612c40f415ef11f07db287b1bdf0b130667689d1cdce3a1bee29"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-sysinfo-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "8e28db596d46ca22f16d8825bebc9406cd01d5efe4233a2eaa6b450473741766"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-sysinfo-l1-2-0.dll",
+      "bytes": 22912,
+      "sha256": "8a0900788859d0eb51c2f48f50cc6ed376a120b518100fa20e11d7702ccde260"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-timezone-l1-1-0.dll",
+      "bytes": 21976,
+      "sha256": "b29f3f250eed6d05bc000a1020ca65215838c3733b78293dfca459031df575f8"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-core-util-l1-1-0.dll",
+      "bytes": 21992,
+      "sha256": "4f79b6338f8438e63627b174d5b1bee2d2dcfc40a6119221317fe3f0d8b1e1a0"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-crt-conio-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "7320687be8b742cd70ac0e5f1b0a854502063f9b291147785aa7355a38de162d"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-crt-convert-l1-1-0.dll",
+      "bytes": 26080,
+      "sha256": "3550d96592baf95f0be865503d98f47c8c8d4d36b01190589bb7bd08585c739d"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-crt-environment-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "167a2b52964458b16aaa166de281e52c35dfe920380c9c7783a06678b665b2ba"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-crt-filesystem-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "255c9a44ed1106c673821ed4ef165788d6bcc94b2924d0fa1d36af4fc2eb0b9c"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-crt-heap-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "dd4be34d6de584a82f12803b1be98afd48bf2f82e87b8cb77141b41ea6393cd5"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-crt-locale-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "93fe93380fae70f12ebe85b92e5326321400861167ee0ac858a81d2f7fa37d4b"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-crt-math-l1-1-0.dll",
+      "bytes": 30184,
+      "sha256": "6ea15153e8948e7fc9e0aee7cfc5cb7b9b8f872f94e6714bc510b9bc7291ad9b"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-crt-process-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "d92c5cd5e4e3738ac13e28e55de12e6da1ffda6f8e1c7687e0a0b4092c6b3462"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-crt-runtime-l1-1-0.dll",
+      "bytes": 26104,
+      "sha256": "1aec90818ef928b5b6ca252e2ac3ffe4ecc1f169251eba720d0035dcb22ba322"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-crt-stdio-l1-1-0.dll",
+      "bytes": 26080,
+      "sha256": "13328be331666a312d58b6a1b537f8b9ac8922de02e22ddcd0ec84a550e59715"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-crt-string-l1-1-0.dll",
+      "bytes": 26072,
+      "sha256": "e45dd01a9f6edcf992f3c74c0eb41178851490db9123a4c738497fbf4f73ec0e"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-crt-time-l1-1-0.dll",
+      "bytes": 21984,
+      "sha256": "0cf285ef569249aaa3fb95de1793fc01895f6805ada65d801302f430b62a5153"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/api-ms-win-crt-utility-l1-1-0.dll",
+      "bytes": 22000,
+      "sha256": "d2a27ff370b4f5c87e5475573d23ee261825a9cd1dd55ee0551a361f61414209"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/base_library.zip",
+      "bytes": 1402457,
+      "sha256": "2bb32c25806e494b09ad32b035bb07b95eb891c21ccc50b6f8effc270a0bea0c"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/ffi.dll",
+      "bytes": 40216,
+      "sha256": "eb22fc95044ce939910d41857445bd0ecc4fc4d810ba30cc6b5f7f55b48ac8ed"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/LIBBZ2.dll",
+      "bytes": 93488,
+      "sha256": "be9d6804f5478eb3d0ed46f44d5c4d3af3c2284e3506f8c767fda0bb02ba790f"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/libcrypto-3-x64.dll",
+      "bytes": 7449904,
+      "sha256": "9ef545dd695164d40b1806f258440fc1b23d9a8b1bbd8e89577d46e82f08b40a"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/libexpat.dll",
+      "bytes": 282416,
+      "sha256": "7a1997016feb1aa1e5aa042adcf8a9806ee7fb68016cf3c13e9a8d76b0fb6f62"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/liblzma.dll",
+      "bytes": 204080,
+      "sha256": "0106bee55c98ae9797dddfc106bb16abf9d25f88f1c341e376ba0589b8be3a99"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/libmpdec-4.dll",
+      "bytes": 213264,
+      "sha256": "81ff8522e6267db6e90ce68eb68eed1e3f8a508d536f68fbf70d9cee8a2a0e9d"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/libssl-3-x64.dll",
+      "bytes": 1336624,
+      "sha256": "49cd8d2b10ca46adff48488c9a410ea25df30bb6150efff9e194ba5ded772126"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/pyexpat.pyd",
+      "bytes": 70984,
+      "sha256": "386530c8b63b6375af57e9f32a43986110383b51fc0f49616ccf20b32e285186"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/python313.dll",
+      "bytes": 7127880,
+      "sha256": "1f93d5101c446fc5d4c4bbd90e602a6bc14f6843999ee946bae3fad3521bcc5d"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/select.pyd",
+      "bytes": 31560,
+      "sha256": "8c46311a8b68071f0fcdc102ae7edac28683655f23807c03f0136a9b440f9cf0"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/ucrtbase.dll",
+      "bytes": 1123808,
+      "sha256": "fbed69a52fdcf571dd37fe4cc63cb86ed3732b5b998807f14968788027c00754"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/unicodedata.pyd",
+      "bytes": 707912,
+      "sha256": "b2768092d8ad28bd77b77581453fe52127fae94adec5b44dc41a15c1f2513d39"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/VCRUNTIME140.dll",
+      "bytes": 124496,
+      "sha256": "0205071c36c17f1efbd70178c852cb7d49985c484202752b8704b7ac6b184e60"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/VCRUNTIME140_1.dll",
+      "bytes": 49744,
+      "sha256": "963e45edd064545962e216c12d68071ced94dc8e11862a18f07f14eb2690a57c"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/zlib.dll",
+      "bytes": 101192,
+      "sha256": "bb5e7e442c70bdfa2d3c45c9620835ecc5e98191bde2bc226b4d799a09ad30b3"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/_bz2.pyd",
+      "bytes": 36168,
+      "sha256": "b2c51a581606ef857728cfbceb74589b4487425dd191c7f3c841c9c0780bb24e"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/_ctypes.pyd",
+      "bytes": 141640,
+      "sha256": "0c904cd04853c7a0255ac330afb8122ee75b91d0fe5dbbc8527b7f091859ce3c"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/_decimal.pyd",
+      "bytes": 161096,
+      "sha256": "78f879306340ce0a73b636080e2a998167b0b501ded0933b7707356454d4763e"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/_elementtree.pyd",
+      "bytes": 78664,
+      "sha256": "fcc51c968571e33588e0ef455787e4f69ff4fcac455106340fb6d146de38b114"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/_hashlib.pyd",
+      "bytes": 63816,
+      "sha256": "25993a8a8235fb50b61e0096e8098951c769f55d040547b30f58b8a874b5dba8"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/_lzma.pyd",
+      "bytes": 48456,
+      "sha256": "0d2a9a6724abd6ab68d5a81413b8767805f9cb7f5a2c3cc8fead9de7d189c0a7"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/_socket.pyd",
+      "bytes": 86344,
+      "sha256": "3018bfcbaafc24a6dbbabcb2bc1e72b85059eaa49b506d0a5a3b8c3dc6eca27a"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/_ssl.pyd",
+      "bytes": 185672,
+      "sha256": "693513c90ef5d8c16d3af488288a553acc446c1cdd01df9c7a0828aacd1b5af5"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/_uuid.pyd",
+      "bytes": 25928,
+      "sha256": "55057f27a2d224e9f000ef7a575951c66d1d58b15ac8bb18eda13a403df3af5e"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/_wmi.pyd",
+      "bytes": 38216,
+      "sha256": "a877b426a1e6eaa5f44e90a254acc4122449ef53a672de4d92e62d76e2b3beb8"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/PIL/_avif.cp313-win_amd64.pyd",
+      "bytes": 7890944,
+      "sha256": "6c6e5d33db5ecd8a28252103c97ac7867d376371875b6baa609947d8e778022a"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/PIL/_imaging.cp313-win_amd64.pyd",
+      "bytes": 2662400,
+      "sha256": "832167d2ecd950dc2382a9866e346d5886262bc8790bbf24613f56ad19d52f82"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/PIL/_imagingcms.cp313-win_amd64.pyd",
+      "bytes": 275456,
+      "sha256": "4ab7b14029ea0a6bdb7f94b069ad3399d53fd192aaeed7460fbabba61d065b76"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/PIL/_imagingft.cp313-win_amd64.pyd",
+      "bytes": 2250752,
+      "sha256": "91f0a8e145163803637620517bad32ad5cb551d8a4dc02c3309811af24dbcbcc"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/PIL/_imagingtk.cp313-win_amd64.pyd",
+      "bytes": 14336,
+      "sha256": "a7af2e099caae412470919646d5d1cf36566fbed697c4cd44e926029dd2c4ccf"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/PIL/_webp.cp313-win_amd64.pyd",
+      "bytes": 415744,
+      "sha256": "77ec2f34c0a33151c7b020dfc987163678e1e3428508117ca8cbc68dfb2af2b1"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/resources/dependencies.json",
+      "bytes": 1006,
+      "sha256": "d567dbe6ebec0a35091bf676340bed169fa2635218290d1385eb54eb84090700"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/vendor/gen_lrc_assets.py",
+      "bytes": 24183,
+      "sha256": "ece0deb71792a4e93688a0a9b0aa5a742d4034eb78f6abb9bc48dde7c31f8eec"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/vendor/PROVENANCE.json",
+      "bytes": 578,
+      "sha256": "bbd755ca9490a323fe145ad4b5a14b3e0404315ed72dbe0a3204596597bb387f"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/vendor/safe_raw_writer.py",
+      "bytes": 26809,
+      "sha256": "be24df21b4284a0f2f88142f5237a7a4b437275c0effd806736f2097e8310845"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/vendor/vinyl_packer.py",
+      "bytes": 33472,
+      "sha256": "185fb21e1b6b44c111bf2a9965693ae15b6792195ba7a66b9a81a6e0f21aee66"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/web/app.js",
+      "bytes": 28189,
+      "sha256": "7e48919da2913b416f24e2fff6fe5486ba46b85448142758a536b71b1995dc2d"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/web/index.html",
+      "bytes": 13469,
+      "sha256": "97288f1d88f1de232ec5c5259c0900954194567b00fbe7a2341ae2eca162d336"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/web/pixel-compare.js",
+      "bytes": 1259,
+      "sha256": "f4337c7de23d1a0123021394daee360efe3f95fee603f22c044d22ff66c0a619"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/web/style.css",
+      "bytes": 13803,
+      "sha256": "4adcc2df8e94550218fbf6308f9f0baac9c9fe837a4136bfa7737721a3928296"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/resources/bin/FFmpeg-LICENSE.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/resources/bin/FFmpeg-README.txt",
+      "bytes": 40985,
+      "sha256": "a0e976df3cf1d781264c41db8ee3421978c1278be92ed00edbc96337529670be"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/resources/bin/ffmpeg.exe",
+      "bytes": 99264000,
+      "sha256": "5af82a0d4fe2b9eae211b967332ea97edfc51c6b328ca35b827e73eac560dc0d"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/resources/bin/ffprobe.exe",
+      "bytes": 99066368,
+      "sha256": "192a1d6899059765ac8c39764fc3148d4e6049955956dc2029f81f4bd6a8972d"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/resources/fonts/NotoSansCJKsc-Regular.otf",
+      "bytes": 16437364,
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/resources/fonts/OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/resources/licenses/Pillow-LICENSE.txt",
+      "bytes": 78481,
+      "sha256": "988ffe8ab3480b0f4e9a0ab2702bffd73d9fb6b47198043fb3ba101a62fac236"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/resources/licenses/Python-LICENSE.txt",
+      "bytes": 13809,
+      "sha256": "78b12c3a81360b357002334f0e70ea0e92eebf7a9b358805c03c48484945f3bb"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/profiles/frozen/ascii_font_rom.v",
+      "bytes": 8946,
+      "sha256": "663262e5d437e3d34c808bd418397cc8152de9fd7c107d8e181b787fc4ae922f"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/profiles/frozen/playback_layout.vh",
+      "bytes": 1907,
+      "sha256": "38079f3a4c2dae0d66c4453b98b33644ebc3d3783c38e2c349f3d30c2bfe95d3"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/profiles/frozen/profile.json",
+      "bytes": 22027,
+      "sha256": "ea35495afa75bf9a39047ca6023e62d847f6a8899e20b17f2fe4c5640f924ff7"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/profiles/frozen/song_font_rom.v",
+      "bytes": 277872,
+      "sha256": "dabdbcc799c742058b4b303bd2c40be8ea19a3445f4552da50806ff90a6c405f"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/profiles/frozen/song_text_geom.vh",
+      "bytes": 350,
+      "sha256": "5fff58e96819148c3d02620329cb011f7b84886b745c3957f799c8f346686e1e"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/profiles/frozen/song_text_rom.v",
+      "bytes": 111328,
+      "sha256": "f94b8024c97e2f7d48f8199d75b100b42481c996aee98f6863f6434c3149f9fa"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/profiles/frozen/rtl/brightness_contrast_steps.v",
+      "bytes": 3175,
+      "sha256": "ec1bf8053b0e738cd02f9ffe4a3df2bc98e9413b90dc19bc067f6d2ef0b37ff1"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/profiles/frozen/rtl/lrc_five_osd.v",
+      "bytes": 7103,
+      "sha256": "2e23d8d49c8b5453450150a63995bc49458fe6b8efcfdb6a63f806706bf1e1c4"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/profiles/frozen/rtl/lrc_scroll_controller.v",
+      "bytes": 3508,
+      "sha256": "3dac4c507171ba919b8f566bb42338c6b9fe8d3b742b4fef40d8773f6cb7da48"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/profiles/frozen/rtl/playback_background.v",
+      "bytes": 2519,
+      "sha256": "c798b7781bd895ff0ec0311e96476480fc21af58f18762fe2301e607b17c4f5f"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/profiles/frozen/rtl/playback_page.v",
+      "bytes": 24466,
+      "sha256": "1d1533cb919b1d06c5b553c1a1c55c04f4349453b18cb3751e0d5cb770ac97c5"
+    },
+    {
+      "path": "dist/VinylFPGA_MediaStudio/_internal/profiles/frozen/rtl/promax_audio_waveform.v",
+      "bytes": 8505,
+      "sha256": "5f47133af25d173a7a922a59f870c86f53625b373e71cf9ccc7fba586ad1bef2"
+    },
+    {
+      "path": "release/checksums.json",
+      "bytes": 269,
+      "sha256": "cb342c4c0905013401d7cde349a58e59de2fbd5c58d300f346fefeacbec767e0"
+    },
+    {
+      "path": "release/VinylFPGA_MediaStudio_Windows_x64.zip",
+      "bytes": 103177463,
+      "sha256": "b0f0eff6dc50edd881dddf37865c9abab253c8b87d5492eacc1a3ad1995495df"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/project.json",
+      "bytes": 1487,
+      "sha256": "376e4e40f94305053cbe0fe8492d417b18e07551be684e4bb19c5b499010ffc5"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/AUDIO.PCM",
+      "bytes": 20381696,
+      "sha256": "e41edee911a79d0c30c50391475aabed000581d6461d30816d3f6d9971dec996"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/AUDIO2.PCM",
+      "bytes": 16259170,
+      "sha256": "538902881020f29e5eae0cdf161a8bb868f9042dc4545709203fa8bcb5b0c0d5"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/AUDIO3.PCM",
+      "bytes": 8214528,
+      "sha256": "1b54628e25272910430757051fe46168ea9a641b74a12119d8a1fa07863e1619"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/AUDIO4.PCM",
+      "bytes": 23416832,
+      "sha256": "a0c586da8ffc4c3e3b66fa718470df34a26851584578bec668b0ef7ceecfdbf2"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/PIC1.BMP",
+      "bytes": 921654,
+      "sha256": "f628e4d600c9d0be1f46c36377238cee15ff1caa7cbb607ab8a3ebdde28d5ee9"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/PIC2.BMP",
+      "bytes": 921654,
+      "sha256": "e0938830e6b93cb9ba6fbb7c5d43806e9536dfe070b728493752434b0965f02b"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/PIC3.BMP",
+      "bytes": 921654,
+      "sha256": "040e072dcf7a4c8a25b537a4ae8311e3655daed2629afd2b236dbea652095346"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/PIC4.BMP",
+      "bytes": 921654,
+      "sha256": "f0e00efa64abbe5a0ec3eae47c19a72a9dc4b1663a998e301c806822affda10c"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/track1.lrc",
+      "bytes": 3147,
+      "sha256": "c9ccf77a9b79f5c3ea7e006fd1666be0d83ea76dbdbb374ef4fd20fd9aebd473"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/TRACK1.mp4",
+      "bytes": 51973319,
+      "sha256": "7dc42c7d9e040406304698531be0b32936117c0d5e7aac94c6c28cdffeebddad"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/track2.lrc",
+      "bytes": 2421,
+      "sha256": "72101b5cd2c9506432cecaceacc9348920fc452f8a95635d1d8c0308bb1b77b0"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/TRACK2.mp4",
+      "bytes": 60262965,
+      "sha256": "9d746cccef161fc73a314cf4fcb47dc330ae084260aeaf288c86175cb41709df"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/track3.lrc",
+      "bytes": 698,
+      "sha256": "5d1b8a356173a98a047f997d23e502401296c081218867e3ac92ef37c2fb6fb9"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/TRACK3.mp4",
+      "bytes": 14064245,
+      "sha256": "f13da00e373895dbd42c93ba48eeb536e597b46d6b5754bfac400f93afbb0b10"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/track4.lrc",
+      "bytes": 1732,
+      "sha256": "263890dd1700ac1e7de46b186fa1481e325ed17aa7eeee9b14d20938b9426d72"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/inputs/TRACK4.mp4",
+      "bytes": 49539644,
+      "sha256": "2d96322e4eec19f7a5099c4ad96d68307237ed71f0bddd060241918fb860f2f8"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/card.img",
+      "bytes": 1224736768,
+      "sha256": "1f08505e64c284f49cd7cae516f557bc173c464c314b1fe29b35d5b54f54a247"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/project_snapshot.json",
+      "bytes": 1485,
+      "sha256": "6ed845ad73a473b594fd6dc4a70f931710e536b1383fd4ca8148c83fc96882ea"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/release.json",
+      "bytes": 34973,
+      "sha256": "b7f2da0bda0fc4447a16db5e94268706e3555de3b221534ba37424e793ea1a93"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/converted/AUDIO.PCM",
+      "bytes": 20381696,
+      "sha256": "e41edee911a79d0c30c50391475aabed000581d6461d30816d3f6d9971dec996"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/converted/AUDIO2.PCM",
+      "bytes": 16259170,
+      "sha256": "538902881020f29e5eae0cdf161a8bb868f9042dc4545709203fa8bcb5b0c0d5"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/converted/AUDIO3.PCM",
+      "bytes": 8214528,
+      "sha256": "1b54628e25272910430757051fe46168ea9a641b74a12119d8a1fa07863e1619"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/converted/AUDIO4.PCM",
+      "bytes": 23416832,
+      "sha256": "a0c586da8ffc4c3e3b66fa718470df34a26851584578bec668b0ef7ceecfdbf2"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/converted/BG.BIN",
+      "bytes": 3686400,
+      "sha256": "369b9700bfdc3554807f04a82217451341fb9d4aa988c65b5728b59a75b0b43f"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/converted/LYRICS.BIN",
+      "bytes": 6154,
+      "sha256": "a5f535f6b9fc0fbcd1559715748a914eaa72e977a3248420d5247e9812a3074c"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/converted/PIC1.BMP",
+      "bytes": 921654,
+      "sha256": "f628e4d600c9d0be1f46c36377238cee15ff1caa7cbb607ab8a3ebdde28d5ee9"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/converted/PIC2.BMP",
+      "bytes": 921654,
+      "sha256": "e0938830e6b93cb9ba6fbb7c5d43806e9536dfe070b728493752434b0965f02b"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/converted/PIC3.BMP",
+      "bytes": 921654,
+      "sha256": "040e072dcf7a4c8a25b537a4ae8311e3655daed2629afd2b236dbea652095346"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/converted/PIC4.BMP",
+      "bytes": 921654,
+      "sha256": "f0e00efa64abbe5a0ec3eae47c19a72a9dc4b1663a998e301c806822affda10c"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/converted/TRACK1.MV",
+      "bytes": 326092800,
+      "sha256": "5301cd36891ddf09160ca4cc10617f778a24a02dbdfd202e174a84c828fe09c7"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/converted/TRACK2.MV",
+      "bytes": 260044800,
+      "sha256": "8db259b524ea3aa65f380d4718404d80ddfd23f94d3d183b21b83a5929ae3569"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/converted/TRACK3.MV",
+      "bytes": 131328000,
+      "sha256": "3d1e1e1712c669e5d6cdef2d790a5687653691563c9fca786af55ea5714b3e67"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/converted/TRACK4.MV",
+      "bytes": 374630400,
+      "sha256": "7a60ba9a70b0e8b3aaaab725bbeae2d14f7035b94677fbb2d08dc5dc921640fb"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/rom/ascii_font_rom.v",
+      "bytes": 8946,
+      "sha256": "663262e5d437e3d34c808bd418397cc8152de9fd7c107d8e181b787fc4ae922f"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/rom/playback_layout.vh",
+      "bytes": 1907,
+      "sha256": "38079f3a4c2dae0d66c4453b98b33644ebc3d3783c38e2c349f3d30c2bfe95d3"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/rom/profile.json",
+      "bytes": 22027,
+      "sha256": "ea35495afa75bf9a39047ca6023e62d847f6a8899e20b17f2fe4c5640f924ff7"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/rom/song_font_rom.v",
+      "bytes": 277872,
+      "sha256": "dabdbcc799c742058b4b303bd2c40be8ea19a3445f4552da50806ff90a6c405f"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/rom/song_text_geom.vh",
+      "bytes": 350,
+      "sha256": "5fff58e96819148c3d02620329cb011f7b84886b745c3957f799c8f346686e1e"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/rom/song_text_rom.v",
+      "bytes": 111328,
+      "sha256": "f94b8024c97e2f7d48f8199d75b100b42481c996aee98f6863f6434c3149f9fa"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/rom/rtl/brightness_contrast_steps.v",
+      "bytes": 3175,
+      "sha256": "ec1bf8053b0e738cd02f9ffe4a3df2bc98e9413b90dc19bc067f6d2ef0b37ff1"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/rom/rtl/lrc_five_osd.v",
+      "bytes": 7103,
+      "sha256": "2e23d8d49c8b5453450150a63995bc49458fe6b8efcfdb6a63f806706bf1e1c4"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/rom/rtl/lrc_scroll_controller.v",
+      "bytes": 3508,
+      "sha256": "3dac4c507171ba919b8f566bb42338c6b9fe8d3b742b4fef40d8773f6cb7da48"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/rom/rtl/playback_background.v",
+      "bytes": 2519,
+      "sha256": "c798b7781bd895ff0ec0311e96476480fc21af58f18762fe2301e607b17c4f5f"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/rom/rtl/playback_page.v",
+      "bytes": 24466,
+      "sha256": "1d1533cb919b1d06c5b553c1a1c55c04f4349453b18cb3751e0d5cb770ac97c5"
+    },
+    {
+      "path": "projects/d1029681a4e246e69c43f4b1f221930f/outputs/33df59e4cbe741bcb1409640770ccc32/rom/rtl/promax_audio_waveform.v",
+      "bytes": 8505,
+      "sha256": "5f47133af25d173a7a922a59f870c86f53625b373e71cf9ccc7fba586ad1bef2"
+    },
+    {
+      "path": "evidence/rtl_final/results.json",
+      "bytes": 32104,
+      "sha256": "134bb0d754ef1dbc58e0bea51bc75d556eaefd3cedb0e542b2b4e3b35c3115be"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_high_contrast_low/base.hex",
+      "bytes": 2457600,
+      "sha256": "c240527e6d06ef0b9efdcbf059befa576deb6fd683a5a118c6f1c36b65304e6b"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_high_contrast_low/config.vh",
+      "bytes": 1617,
+      "sha256": "02dd56719db3a3ea81a74b0c2054bd2d3471f2ba65fe44b59842c26cb07da9be"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_high_contrast_low/difference.png",
+      "bytes": 973,
+      "sha256": "9347fe86f6b448518e30d671057b4ece3e7f2cf3906488168f63736a4c990bc0"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_high_contrast_low/preview.png",
+      "bytes": 36393,
+      "sha256": "3ebaef6fc10fa7ec5032969cbc8dc6e33d0fcb4b9736dac3b576b663951a4e4e"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_high_contrast_low/rtl.png",
+      "bytes": 36393,
+      "sha256": "3ebaef6fc10fa7ec5032969cbc8dc6e33d0fcb4b9736dac3b576b663951a4e4e"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_high_contrast_low/rtl.rgb",
+      "bytes": 921600,
+      "sha256": "f4b9fc6c200d9a9cc21dafc1f974780570377dfa0954c228e707ca8db2507fae"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_high_contrast_low/run.log",
+      "bytes": 203,
+      "sha256": "da223b49236b4eb3402b72b24047ab57da2889a2beb54e54cb65d1f8796070c1"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_high_contrast_low/sim.vvp",
+      "bytes": 1202203,
+      "sha256": "ceb6a32468bd4b99118bcaa31403c4b6ac9c2b5d3a2e37c6185772fc449bb857"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_low_contrast_high/base.hex",
+      "bytes": 2457600,
+      "sha256": "19083e44b67c493b7aaea292b7581ec394b2bf1258d02bb3a4b1e1fce41a0798"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_low_contrast_high/config.vh",
+      "bytes": 1619,
+      "sha256": "ab4209c18c081a4b7ab625b08fadc02bbb5073336c2b7b2c9b74c6c7118d74f9"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_low_contrast_high/difference.png",
+      "bytes": 973,
+      "sha256": "9347fe86f6b448518e30d671057b4ece3e7f2cf3906488168f63736a4c990bc0"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_low_contrast_high/preview.png",
+      "bytes": 14843,
+      "sha256": "ed3de7227f79ce291cc22673c52dcd2ea0b978f1e862b54935b0a603b1df97a8"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_low_contrast_high/rtl.png",
+      "bytes": 14843,
+      "sha256": "ed3de7227f79ce291cc22673c52dcd2ea0b978f1e862b54935b0a603b1df97a8"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_low_contrast_high/rtl.rgb",
+      "bytes": 921600,
+      "sha256": "94c88b0f3c2630a7d1cafe60f92991eca8c1878084aa202703fb2d252a60291a"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_low_contrast_high/run.log",
+      "bytes": 203,
+      "sha256": "da223b49236b4eb3402b72b24047ab57da2889a2beb54e54cb65d1f8796070c1"
+    },
+    {
+      "path": "evidence/rtl_final/brightness_low_contrast_high/sim.vvp",
+      "bytes": 1202394,
+      "sha256": "a0a0df8aed1f00910aa95e01aa16c043658901b761f1244f304e50c7f37b6d98"
+    },
+    {
+      "path": "evidence/rtl_final/browse_bank1/base.hex",
+      "bytes": 2457600,
+      "sha256": "c240527e6d06ef0b9efdcbf059befa576deb6fd683a5a118c6f1c36b65304e6b"
+    },
+    {
+      "path": "evidence/rtl_final/browse_bank1/config.vh",
+      "bytes": 1617,
+      "sha256": "8176d5b1d3751abaa5f45e92830673a79b71cc16dc92019f3c2e9732e5db6ec7"
+    },
+    {
+      "path": "evidence/rtl_final/browse_bank1/difference.png",
+      "bytes": 973,
+      "sha256": "9347fe86f6b448518e30d671057b4ece3e7f2cf3906488168f63736a4c990bc0"
+    },
+    {
+      "path": "evidence/rtl_final/browse_bank1/preview.png",
+      "bytes": 18038,
+      "sha256": "3e667c45acdee7f5a0a766e1b684a68cd23565d151b13cb2615a7a78af638bac"
+    },
+    {
+      "path": "evidence/rtl_final/browse_bank1/rtl.png",
+      "bytes": 18038,
+      "sha256": "3e667c45acdee7f5a0a766e1b684a68cd23565d151b13cb2615a7a78af638bac"
+    },
+    {
+      "path": "evidence/rtl_final/browse_bank1/rtl.rgb",
+      "bytes": 921600,
+      "sha256": "5974ecf1a5ae9e504bcf48243f48d168482cbff28b508f92c1f4bd3c49167cfe"
+    },
+    {
+      "path": "evidence/rtl_final/browse_bank1/run.log",
+      "bytes": 203,
+      "sha256": "da223b49236b4eb3402b72b24047ab57da2889a2beb54e54cb65d1f8796070c1"
+    },
+    {
+      "path": "evidence/rtl_final/browse_bank1/sim.vvp",
+      "bytes": 1202203,
+      "sha256": "c8cd09e4a34a2fe3a85caac0381b4dc852227fd2283bb0659794d823173d16fd"
+    },
+    {
+      "path": "evidence/rtl_final/browse_first/base.hex",
+      "bytes": 2457600,
+      "sha256": "c240527e6d06ef0b9efdcbf059befa576deb6fd683a5a118c6f1c36b65304e6b"
+    },
+    {
+      "path": "evidence/rtl_final/browse_first/config.vh",
+      "bytes": 1617,
+      "sha256": "88bb88376785b6a7433b8ea79f0aff103811072ed19f268659e031f07bb550cb"
+    },
+    {
+      "path": "evidence/rtl_final/browse_first/difference.png",
+      "bytes": 973,
+      "sha256": "9347fe86f6b448518e30d671057b4ece3e7f2cf3906488168f63736a4c990bc0"
+    },
+    {
+      "path": "evidence/rtl_final/browse_first/preview.png",
+      "bytes": 17951,
+      "sha256": "f522ce23f0c482fb24c8ae8b27f2a61ca8dd831a3b3a2ebb4ef601c14ebcc560"
+    },
+    {
+      "path": "evidence/rtl_final/browse_first/rtl.png",
+      "bytes": 17951,
+      "sha256": "f522ce23f0c482fb24c8ae8b27f2a61ca8dd831a3b3a2ebb4ef601c14ebcc560"
+    },
+    {
+      "path": "evidence/rtl_final/browse_first/rtl.rgb",
+      "bytes": 921600,
+      "sha256": "e83fb2b692ed49630881b9e71b175d99c11a23f19a81f904a991717a2ff2c898"
+    },
+    {
+      "path": "evidence/rtl_final/browse_first/run.log",
+      "bytes": 203,
+      "sha256": "da223b49236b4eb3402b72b24047ab57da2889a2beb54e54cb65d1f8796070c1"
+    },
+    {
+      "path": "evidence/rtl_final/browse_first/sim.vvp",
+      "bytes": 1202203,
+      "sha256": "11cba071ec9b172b25891bf3a1f394e0e0bb58977e137b5f269633212c450ea5"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/project.json",
+      "bytes": 593,
+      "sha256": "4ffd3819c894d5a57544cf08f7bd9f69d014e8fae1f2528096b3e3293a52a31b"
+    },
+    {
+      "path": "evidence/rtl_final/no_lyrics_bank1/base.hex",
+      "bytes": 2457600,
+      "sha256": "19083e44b67c493b7aaea292b7581ec394b2bf1258d02bb3a4b1e1fce41a0798"
+    },
+    {
+      "path": "evidence/rtl_final/no_lyrics_bank1/config.vh",
+      "bytes": 1433,
+      "sha256": "61e3ef2f891033f565cacbb435cbf89ac978d7e4ba94cb97a3d5a3416a22c76e"
+    },
+    {
+      "path": "evidence/rtl_final/no_lyrics_bank1/difference.png",
+      "bytes": 973,
+      "sha256": "9347fe86f6b448518e30d671057b4ece3e7f2cf3906488168f63736a4c990bc0"
+    },
+    {
+      "path": "evidence/rtl_final/no_lyrics_bank1/preview.png",
+      "bytes": 8477,
+      "sha256": "d27c932b73d1f8cfaf5ad16c98b6cb5e60012fc53bd33ddb26930ec083b0106f"
+    },
+    {
+      "path": "evidence/rtl_final/no_lyrics_bank1/rtl.png",
+      "bytes": 8477,
+      "sha256": "d27c932b73d1f8cfaf5ad16c98b6cb5e60012fc53bd33ddb26930ec083b0106f"
+    },
+    {
+      "path": "evidence/rtl_final/no_lyrics_bank1/rtl.rgb",
+      "bytes": 921600,
+      "sha256": "e6e97cfe6e1278977a02b3c362e8e6aa9ffbf481b1eac44c7bd18c2b6266a052"
+    },
+    {
+      "path": "evidence/rtl_final/no_lyrics_bank1/run.log",
+      "bytes": 203,
+      "sha256": "da223b49236b4eb3402b72b24047ab57da2889a2beb54e54cb65d1f8796070c1"
+    },
+    {
+      "path": "evidence/rtl_final/no_lyrics_bank1/sim.vvp",
+      "bytes": 1201739,
+      "sha256": "50a610012e3b49d646aaabd1b8d953e274ebc220d24099dd0f872913035818a4"
+    },
+    {
+      "path": "evidence/rtl_final/play_art/base.hex",
+      "bytes": 2457600,
+      "sha256": "2b97e24c1d2cfbafbc85a6aa211086ed61839501c7ee168326d185890259efbc"
+    },
+    {
+      "path": "evidence/rtl_final/play_art/config.vh",
+      "bytes": 1618,
+      "sha256": "bb1d1a833621fc2935abc7064534f06ff68b6f81b8fbf7e54279a26719485afe"
+    },
+    {
+      "path": "evidence/rtl_final/play_art/difference.png",
+      "bytes": 973,
+      "sha256": "9347fe86f6b448518e30d671057b4ece3e7f2cf3906488168f63736a4c990bc0"
+    },
+    {
+      "path": "evidence/rtl_final/play_art/preview.png",
+      "bytes": 15594,
+      "sha256": "08b35893d24febc8e63d264803b93940397c5eb70652b582e0c2db3e94390d10"
+    },
+    {
+      "path": "evidence/rtl_final/play_art/rtl.png",
+      "bytes": 15594,
+      "sha256": "08b35893d24febc8e63d264803b93940397c5eb70652b582e0c2db3e94390d10"
+    },
+    {
+      "path": "evidence/rtl_final/play_art/rtl.rgb",
+      "bytes": 921600,
+      "sha256": "96e1cc93a47d59cc3a65f2792a918f5ecc117772cce6361356b6a64aac7d866e"
+    },
+    {
+      "path": "evidence/rtl_final/play_art/run.log",
+      "bytes": 203,
+      "sha256": "da223b49236b4eb3402b72b24047ab57da2889a2beb54e54cb65d1f8796070c1"
+    },
+    {
+      "path": "evidence/rtl_final/play_art/sim.vvp",
+      "bytes": 1202318,
+      "sha256": "264edfff53fe63d3019b64ddddfbf9e3811ce8314e6bac8d69bed1f9db67a890"
+    },
+    {
+      "path": "evidence/rtl_final/play_background/base.hex",
+      "bytes": 2457600,
+      "sha256": "2781cee1099bf0ce18c5cf5d7a2607b207b984e5f4fe8927761eb4a7ddab78ef"
+    },
+    {
+      "path": "evidence/rtl_final/play_background/config.vh",
+      "bytes": 1619,
+      "sha256": "6f8b4a6fabf88f4c5020b4e6fe9d7f23f731b004b703fbe9aed85196db6a9cdd"
+    },
+    {
+      "path": "evidence/rtl_final/play_background/difference.png",
+      "bytes": 973,
+      "sha256": "9347fe86f6b448518e30d671057b4ece3e7f2cf3906488168f63736a4c990bc0"
+    },
+    {
+      "path": "evidence/rtl_final/play_background/preview.png",
+      "bytes": 23757,
+      "sha256": "5b9fa0f153b5895690398a53c7b7b8d92bf8b5369bfb2cc69478aeea58295f57"
+    },
+    {
+      "path": "evidence/rtl_final/play_background/rtl.png",
+      "bytes": 23757,
+      "sha256": "5b9fa0f153b5895690398a53c7b7b8d92bf8b5369bfb2cc69478aeea58295f57"
+    },
+    {
+      "path": "evidence/rtl_final/play_background/rtl.rgb",
+      "bytes": 921600,
+      "sha256": "41abf08a72984667c01a6b29416d8164b9a2b4f9866bfebb1babf17247965eae"
+    },
+    {
+      "path": "evidence/rtl_final/play_background/run.log",
+      "bytes": 203,
+      "sha256": "da223b49236b4eb3402b72b24047ab57da2889a2beb54e54cb65d1f8796070c1"
+    },
+    {
+      "path": "evidence/rtl_final/play_background/sim.vvp",
+      "bytes": 1202394,
+      "sha256": "172d35acd4a1a9a899e18ba553c425fcda5bc55160919216cd1e1fd96f1e7c2d"
+    },
+    {
+      "path": "evidence/rtl_final/play_gray/base.hex",
+      "bytes": 2457600,
+      "sha256": "19083e44b67c493b7aaea292b7581ec394b2bf1258d02bb3a4b1e1fce41a0798"
+    },
+    {
+      "path": "evidence/rtl_final/play_gray/config.vh",
+      "bytes": 1618,
+      "sha256": "61e345bb42b38398590b0a32ab43ce4ede34335c2b523f219e29c87c18a52c03"
+    },
+    {
+      "path": "evidence/rtl_final/play_gray/difference.png",
+      "bytes": 973,
+      "sha256": "9347fe86f6b448518e30d671057b4ece3e7f2cf3906488168f63736a4c990bc0"
+    },
+    {
+      "path": "evidence/rtl_final/play_gray/preview.png",
+      "bytes": 12148,
+      "sha256": "88b46b3bb995f06392aa3d1db0f051663d00181df43ecd766d112f92678df37f"
+    },
+    {
+      "path": "evidence/rtl_final/play_gray/rtl.png",
+      "bytes": 12148,
+      "sha256": "88b46b3bb995f06392aa3d1db0f051663d00181df43ecd766d112f92678df37f"
+    },
+    {
+      "path": "evidence/rtl_final/play_gray/rtl.rgb",
+      "bytes": 921600,
+      "sha256": "5cb02f64fc367d95ef05db1dcf466b55cd92b1ce56f25a3c07d39924a80a434d"
+    },
+    {
+      "path": "evidence/rtl_final/play_gray/run.log",
+      "bytes": 203,
+      "sha256": "da223b49236b4eb3402b72b24047ab57da2889a2beb54e54cb65d1f8796070c1"
+    },
+    {
+      "path": "evidence/rtl_final/play_gray/sim.vvp",
+      "bytes": 1202393,
+      "sha256": "2d6e3d648461db09fcab5bffd4e9472232bff3b5c038473d0ac19d9bf9d6814a"
+    },
+    {
+      "path": "evidence/rtl_final/rgb565_all/difference.png",
+      "bytes": 270,
+      "sha256": "a3684197d1fba631f63afa791d1505e6e412fc1c505d3136bf264b8a25fe7118"
+    },
+    {
+      "path": "evidence/rtl_final/rgb565_all/preview.png",
+      "bytes": 1752,
+      "sha256": "43e1bd2d1b788d8421eff514c667980531cc92f5cb49f6ff1801598bb06f7c03"
+    },
+    {
+      "path": "evidence/rtl_final/rgb565_all/rgb565.rgb",
+      "bytes": 196608,
+      "sha256": "e1c078b645355414f97e03687a9956907f862faf50174d0a94bf9796afd5f3ea"
+    },
+    {
+      "path": "evidence/rtl_final/rgb565_all/rtl.png",
+      "bytes": 1752,
+      "sha256": "43e1bd2d1b788d8421eff514c667980531cc92f5cb49f6ff1801598bb06f7c03"
+    },
+    {
+      "path": "evidence/rtl_final/rgb565_all/run.log",
+      "bytes": 190,
+      "sha256": "61523143ed885ecf77d62e34f45192ae8c7c4ba283f0ccc68d1231dd71ed940b"
+    },
+    {
+      "path": "evidence/rtl_final/rgb565_all/sim.vvp",
+      "bytes": 22888,
+      "sha256": "405c2d96e6f1b6f6ecc694f47491bf241ce91512293c1f7d78c425c35381696e"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_end/base.hex",
+      "bytes": 2457600,
+      "sha256": "19083e44b67c493b7aaea292b7581ec394b2bf1258d02bb3a4b1e1fce41a0798"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_end/config.vh",
+      "bytes": 1586,
+      "sha256": "0bed2a7648e3c43595c44c97354b6a6a78b6146e431bbd51a86849706f93e463"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_end/difference.png",
+      "bytes": 973,
+      "sha256": "9347fe86f6b448518e30d671057b4ece3e7f2cf3906488168f63736a4c990bc0"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_end/preview.png",
+      "bytes": 12164,
+      "sha256": "7dbd0fff6fdac280555984d43dc328f24f92a6eba5b5a672c557d6b99ff16eec"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_end/rtl.png",
+      "bytes": 12164,
+      "sha256": "7dbd0fff6fdac280555984d43dc328f24f92a6eba5b5a672c557d6b99ff16eec"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_end/rtl.rgb",
+      "bytes": 921600,
+      "sha256": "19433f3bcdf9c5c12ee906a31073bcd299a2fcabf9f6bae2ea3f9045bac26d18"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_end/run.log",
+      "bytes": 203,
+      "sha256": "da223b49236b4eb3402b72b24047ab57da2889a2beb54e54cb65d1f8796070c1"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_end/sim.vvp",
+      "bytes": 1202280,
+      "sha256": "4da93b139de62cf0523c04112de8340ee0e127f573864307332149a17eedc3e5"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_half/base.hex",
+      "bytes": 2457600,
+      "sha256": "19083e44b67c493b7aaea292b7581ec394b2bf1258d02bb3a4b1e1fce41a0798"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_half/config.vh",
+      "bytes": 1619,
+      "sha256": "5c91bc45eff4e5abbe102986f9b183349597c08cba134c71521297482762a19a"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_half/difference.png",
+      "bytes": 973,
+      "sha256": "9347fe86f6b448518e30d671057b4ece3e7f2cf3906488168f63736a4c990bc0"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_half/preview.png",
+      "bytes": 12711,
+      "sha256": "d0f3a4d310efeb08b6aa8f0df723d09f5f283c094c66ab7e4b5589d738a6c0a2"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_half/rtl.png",
+      "bytes": 12711,
+      "sha256": "d0f3a4d310efeb08b6aa8f0df723d09f5f283c094c66ab7e4b5589d738a6c0a2"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_half/rtl.rgb",
+      "bytes": 921600,
+      "sha256": "1ac49c20ac89c4c5828b800dbfd190d820dfeacd175cebefc1829f20ce1a0004"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_half/run.log",
+      "bytes": 203,
+      "sha256": "da223b49236b4eb3402b72b24047ab57da2889a2beb54e54cb65d1f8796070c1"
+    },
+    {
+      "path": "evidence/rtl_final/scroll_half/sim.vvp",
+      "bytes": 1202394,
+      "sha256": "131aa0efd53afef4e770ceb3bd7217a6bae09f407bc95c8a3713643cfe61c85c"
+    },
+    {
+      "path": "evidence/rtl_final/wave_all_colors/base.hex",
+      "bytes": 2457600,
+      "sha256": "19083e44b67c493b7aaea292b7581ec394b2bf1258d02bb3a4b1e1fce41a0798"
+    },
+    {
+      "path": "evidence/rtl_final/wave_all_colors/config.vh",
+      "bytes": 1656,
+      "sha256": "0ad17b1aeb88e3ce4cba755f82901a8a780114ef752008f453282e0a9d03139e"
+    },
+    {
+      "path": "evidence/rtl_final/wave_all_colors/difference.png",
+      "bytes": 973,
+      "sha256": "9347fe86f6b448518e30d671057b4ece3e7f2cf3906488168f63736a4c990bc0"
+    },
+    {
+      "path": "evidence/rtl_final/wave_all_colors/preview.png",
+      "bytes": 12654,
+      "sha256": "50701d318dc28e2ca51290535b503730a0034b997eb2246266f80bbae14d35ab"
+    },
+    {
+      "path": "evidence/rtl_final/wave_all_colors/rtl.png",
+      "bytes": 12654,
+      "sha256": "50701d318dc28e2ca51290535b503730a0034b997eb2246266f80bbae14d35ab"
+    },
+    {
+      "path": "evidence/rtl_final/wave_all_colors/rtl.rgb",
+      "bytes": 921600,
+      "sha256": "3e560ae6187658aac45be0b4488810f62c40142f1620ad90a4945fcb853ea4bf"
+    },
+    {
+      "path": "evidence/rtl_final/wave_all_colors/run.log",
+      "bytes": 203,
+      "sha256": "da223b49236b4eb3402b72b24047ab57da2889a2beb54e54cb65d1f8796070c1"
+    },
+    {
+      "path": "evidence/rtl_final/wave_all_colors/sim.vvp",
+      "bytes": 1202431,
+      "sha256": "ad8aa712a029e87cfee004ca65c8bea8ee51d41129c3fb59d9190cfdadcdfe16"
+    },
+    {
+      "path": "evidence/rtl_final/wave_fullscale/base.hex",
+      "bytes": 2457600,
+      "sha256": "19083e44b67c493b7aaea292b7581ec394b2bf1258d02bb3a4b1e1fce41a0798"
+    },
+    {
+      "path": "evidence/rtl_final/wave_fullscale/config.vh",
+      "bytes": 1684,
+      "sha256": "fb11fbda519a89edc0de8ae4c0a39175b3f7c324a1d1066b02a63523daf91af7"
+    },
+    {
+      "path": "evidence/rtl_final/wave_fullscale/difference.png",
+      "bytes": 973,
+      "sha256": "9347fe86f6b448518e30d671057b4ece3e7f2cf3906488168f63736a4c990bc0"
+    },
+    {
+      "path": "evidence/rtl_final/wave_fullscale/preview.png",
+      "bytes": 12527,
+      "sha256": "86bade29bbae66580424299ae9bf9af08e6ab8485ee418cdee56ce2b0bbb87a4"
+    },
+    {
+      "path": "evidence/rtl_final/wave_fullscale/rtl.png",
+      "bytes": 12527,
+      "sha256": "86bade29bbae66580424299ae9bf9af08e6ab8485ee418cdee56ce2b0bbb87a4"
+    },
+    {
+      "path": "evidence/rtl_final/wave_fullscale/rtl.rgb",
+      "bytes": 921600,
+      "sha256": "e14bb4303fc8e0b0286a94932e0b96d00cb8254ecf24a54114b28265f2260ebb"
+    },
+    {
+      "path": "evidence/rtl_final/wave_fullscale/run.log",
+      "bytes": 203,
+      "sha256": "da223b49236b4eb3402b72b24047ab57da2889a2beb54e54cb65d1f8796070c1"
+    },
+    {
+      "path": "evidence/rtl_final/wave_fullscale/sim.vvp",
+      "bytes": 1202459,
+      "sha256": "43d5ea0705d4218e1124e13725f3758c377a72bf3f11a3cae69b0a8761b57d49"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/inputs/cover.png",
+      "bytes": 13509,
+      "sha256": "22487b9372a2ff2af75206651f42c367b54c1b618a57320f5e170cdd3b5d5436"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/inputs/song.lrc",
+      "bytes": 302,
+      "sha256": "373d82aac40b52f0c8858600542dd22aa1ffa03dcadc9515c53d143f7a5610ab"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/inputs/song.wav",
+      "bytes": 1152044,
+      "sha256": "331ac2f1a6d27624df849ae82cb74b9c3b7fd3deac35b3d3fe15824d9bb29833"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/card.img",
+      "bytes": 67108864,
+      "sha256": "4eea023edaf84e6b686b975e31a8dc35a9da7f7993d7fb57008ac7742628f170"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/project_snapshot.json",
+      "bytes": 1320,
+      "sha256": "e64e034053721f8a7e5120bfb9fe9eed0affae9f70a012643d6bb1c405ec5f52"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/release.json",
+      "bytes": 11126,
+      "sha256": "1d9b6cf417faa37e7473f197284a4914e5c6af568369a5094b91143cdb86191c"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/converted/AUDIO.PCM",
+      "bytes": 1152000,
+      "sha256": "87b70eb78776e7b61f70a6fdbd06bddbfb7e877812b593071945976f73a89269"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/converted/AUDIO2.PCM",
+      "bytes": 1152000,
+      "sha256": "87b70eb78776e7b61f70a6fdbd06bddbfb7e877812b593071945976f73a89269"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/converted/AUDIO3.PCM",
+      "bytes": 1152000,
+      "sha256": "87b70eb78776e7b61f70a6fdbd06bddbfb7e877812b593071945976f73a89269"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/converted/AUDIO4.PCM",
+      "bytes": 1152000,
+      "sha256": "87b70eb78776e7b61f70a6fdbd06bddbfb7e877812b593071945976f73a89269"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/converted/BG.BIN",
+      "bytes": 3686400,
+      "sha256": "34d3c1bf82e651b03455a9fdc99ef5682139cfa3e3599942353697a2013cff88"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/converted/LYRICS.BIN",
+      "bytes": 813,
+      "sha256": "82f4d07c37ce2400997069bf8fbc33ac469dfc326c715998cbe30115da13a735"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/converted/PIC1.BMP",
+      "bytes": 921654,
+      "sha256": "500648f2f9cb7f7f861d35ffdc9e0bc04b8eb528c5b9af0113e3d923ae435672"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/converted/PIC2.BMP",
+      "bytes": 921654,
+      "sha256": "500648f2f9cb7f7f861d35ffdc9e0bc04b8eb528c5b9af0113e3d923ae435672"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/converted/PIC3.BMP",
+      "bytes": 921654,
+      "sha256": "500648f2f9cb7f7f861d35ffdc9e0bc04b8eb528c5b9af0113e3d923ae435672"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/converted/PIC4.BMP",
+      "bytes": 921654,
+      "sha256": "500648f2f9cb7f7f861d35ffdc9e0bc04b8eb528c5b9af0113e3d923ae435672"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/lyric_assets/songs_manifest.json",
+      "bytes": 337,
+      "sha256": "eb9dc7c72fbc463838fdcf0fe150012f1b9757d4b19f35f8f88b4649f093f52a"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/lyric_assets/track1.lrc",
+      "bytes": 304,
+      "sha256": "39dcf6d61fda2e68db118dd113651c909a5f1ea1cae5131d343a2536a1b90743"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/lyric_assets/track2.lrc",
+      "bytes": 304,
+      "sha256": "39dcf6d61fda2e68db118dd113651c909a5f1ea1cae5131d343a2536a1b90743"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/lyric_assets/track3.lrc",
+      "bytes": 304,
+      "sha256": "39dcf6d61fda2e68db118dd113651c909a5f1ea1cae5131d343a2536a1b90743"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/rom/ascii_font_rom.v",
+      "bytes": 8946,
+      "sha256": "663262e5d437e3d34c808bd418397cc8152de9fd7c107d8e181b787fc4ae922f"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/rom/playback_layout.vh",
+      "bytes": 1907,
+      "sha256": "38079f3a4c2dae0d66c4453b98b33644ebc3d3783c38e2c349f3d30c2bfe95d3"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/rom/profile.json",
+      "bytes": 2508,
+      "sha256": "3c0526c208eb9d252d02d175763a1dbd894449fbafe8bda05e3d62b5056e9f6e"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/rom/song_font_rom.v",
+      "bytes": 277872,
+      "sha256": "219afe336a3b5cb4782176ea16158319736c5fb918339030db7ea6d4432b7d82"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/rom/song_text_geom.vh",
+      "bytes": 348,
+      "sha256": "32d19fc321bb5c3b98f61e2ad3b93d5af09b082dba43647229a45b38e3b860d2"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/rom/song_text_rom.v",
+      "bytes": 11234,
+      "sha256": "f053ad55a50767847cf8761945e9e764abd4fbf08a2d45c5060f2b4338da2d2d"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/rom/固件交接说明.txt",
+      "bytes": 301,
+      "sha256": "a582aaf878c7763efa25db74487cc5d876cb9af8c5922175b4efe00cb4c5e490"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/generated/src/display/song_font_rom.v",
+      "bytes": 277872,
+      "sha256": "219afe336a3b5cb4782176ea16158319736c5fb918339030db7ea6d4432b7d82"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/generated/src/display/song_text_rom.v",
+      "bytes": 11234,
+      "sha256": "f053ad55a50767847cf8761945e9e764abd4fbf08a2d45c5060f2b4338da2d2d"
+    },
+    {
+      "path": "evidence/rtl_final/fixture/release/generated/src/include/song_text_geom.vh",
+      "bytes": 348,
+      "sha256": "32d19fc321bb5c3b98f61e2ad3b93d5af09b082dba43647229a45b38e3b860d2"
+    },
+    {
+      "path": "evidence/screenshots/browser.json",
+      "bytes": 533,
+      "sha256": "8188f659edd7517f22ca47f965b77355288fb7e7c1e6883b8511f045dc5ba14a"
+    },
+    {
+      "path": "evidence/screenshots/preview_browse.png",
+      "bytes": 460455,
+      "sha256": "879b8123cc88ee2985ea68bc11c9efe7c9facba58340bddaed3ac0ff9eacf4d2"
+    },
+    {
+      "path": "evidence/screenshots/preview_play.png",
+      "bytes": 79177,
+      "sha256": "d0f8b0416e9e5ee9c0125251c8645bcfed12a2f3d698affad7ae8d4bbc79f902"
+    },
+    {
+      "path": "evidence/screenshots/studio_browse.png",
+      "bytes": 640675,
+      "sha256": "465c3081b0c4fa19b902ed1c24209c3cacd89caf33353825388202f81c139d52"
+    },
+    {
+      "path": "evidence/screenshots/studio_comparison.png",
+      "bytes": 521220,
+      "sha256": "e79f3343c58634f42bbce78fedc73c81c6cf3de1fe1b4f93a622ce3038bbbe32"
+    },
+    {
+      "path": "evidence/screenshots/studio_delivery.png",
+      "bytes": 99528,
+      "sha256": "7edaac17ab304b7184b4af2ec1cab248f72d5a0969af5257140485283bed882c"
+    },
+    {
+      "path": "evidence/screenshots/studio_play.png",
+      "bytes": 235826,
+      "sha256": "ef2ebac3d9f379d50ecd32533af661c84b29f71aed0be7bbb801e54d0938e70d"
+    },
+    {
+      "path": "evidence/portable/comparison_fixture.png",
+      "bytes": 12574,
+      "sha256": "6e320909a8af329116cb9390f6c70a5ea6e01bc8b9484e8906f356a61d31b75d"
+    },
+    {
+      "path": "evidence/portable/comparison_one_pixel.png",
+      "bytes": 4453,
+      "sha256": "7caca1222ba398e38de9bf46fa551c5c955e67eb536c4800dadf99325d623109"
+    },
+    {
+      "path": "evidence/portable/comparison_profile_fixture.png",
+      "bytes": 4529,
+      "sha256": "7b8b69ed40d41c8054488fec6151dbc64324594e9d96dd8d73a024fa25449bcd"
+    },
+    {
+      "path": "evidence/portable/pixel_comparison_test.png",
+      "bytes": 111116,
+      "sha256": "95bb56c972af2018f6db591484bd022b649c5337cfb5af4baa90e21e28ff3665"
+    },
+    {
+      "path": "evidence/portable/portable_preview.png",
+      "bytes": 5198,
+      "sha256": "36c73cdda343491d854029e2391535211eb637970f0989358674d10327f01f7b"
+    },
+    {
+      "path": "evidence/portable/portable_studio.png",
+      "bytes": 144779,
+      "sha256": "63373c1783ab39874209fd5968a39d4df1a5f5643ce3bb41519f9da7138bd041"
+    },
+    {
+      "path": "evidence/portable/results.json",
+      "bytes": 1222,
+      "sha256": "4276bcfb9faebbc31c84e252bc958d8cf74392eb182b493921d8d7a61e1e2c65"
+    },
+    {
+      "path": "evidence/checks/frontend.log",
+      "bytes": 681,
+      "sha256": "7e2d37ec7fefc55c9fe9bbe67265df3fa0e74f93c0e9c6888bc971df90056986"
+    },
+    {
+      "path": "evidence/checks/pixel_compare.log",
+      "bytes": 91,
+      "sha256": "da902a199dd1405d14c5c2ed6d67d003dfefdca2091754ea644471ba78e71973"
+    },
+    {
+      "path": "evidence/checks/results.json",
+      "bytes": 5470,
+      "sha256": "7874277f34cafac776125d6ed568ec9d4b3bb04d730587e5d71e99f4e6ac0434"
+    },
+    {
+      "path": "evidence/checks/unittest.log",
+      "bytes": 14358,
+      "sha256": "0de767c1070d7516261388e5fc8d7f9e805db531fa5dbcc726505cbbabc8f75b"
+    }
+  ]
+}

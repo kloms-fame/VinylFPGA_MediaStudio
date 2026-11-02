@@ -1,0 +1,120 @@
+# SynthPilot
+
+SynthPilot is an official Model Context Protocol (MCP) server for structured FPGA development with AMD Vivado, Anlogic Tang Dynasty, and Intel Quartus.
+
+Official website: https://www.synthpilot.dev/
+Documentation: https://www.synthpilot.dev/docs.html
+Public tool catalog: https://www.synthpilot.dev/tools.html
+Platform details: https://www.synthpilot.dev/platform-vivado.html | https://www.synthpilot.dev/platform-anlogic.html | https://www.synthpilot.dev/platform-quartus.html
+Vivado overview: https://www.synthpilot.dev/platform-vivado.html
+Anlogic overview: https://www.synthpilot.dev/platform-anlogic.html
+Quartus overview: https://www.synthpilot.dev/platform-quartus.html
+Terms: https://www.synthpilot.dev/terms.html
+Privacy: https://www.synthpilot.dev/privacy.html
+
+## Product model
+
+One SynthPilot installation supports three FPGA platforms. Each MCP server process loads exactly one platform selected by its startup argument. The active License then filters which tools are registered for that process. Tool catalogs for different platforms are not loaded together.
+
+Current public catalogs and plan access:
+
+| Platform | Catalog | Free | Pro | Max |
+| --- | ---: | ---: | ---: | ---: |
+| AMD Vivado | 510 | 43 | 475 | 510 |
+| Anlogic TD | 102 | 4 | 90 | 102 |
+| Intel Quartus | 24 | 6 | 24 | 24 |
+
+Trial follows Pro tool access during its valid trial period. Raw vendor Tcl escape hatches are intentionally unavailable on every plan.
+
+## Install and configure
+
+```bash
+uv tool install synthpilot
+synthpilot --version
+synthpilot activate YOUR-LICENSE-KEY
+synthpilot setup --platform vivado
+synthpilot doctor --platform vivado
+```
+
+Replace `vivado` with `anlogic` or `quartus` when configuring another platform.
+
+Register a selected platform in a supported MCP client:
+
+```bash
+synthpilot install-mcp --client codex --platform vivado --scope user
+synthpilot install-mcp --client claude_code --platform quartus --scope project
+```
+
+Supported registration targets include Claude Code, Claude Desktop, Cursor, and Codex. Available scopes depend on the client: Claude Code supports user, project, and local; Codex supports user and project; desktop JSON clients use user scope.
+
+For manual MCP configuration, run the server with a fixed platform:
+
+```json
+{
+  "mcpServers": {
+    "synthpilot": {
+      "command": "synthpilot",
+      "args": ["--platform", "vivado"]
+    }
+  }
+}
+```
+
+Do not add a plan argument. Plan access comes from the activated License.
+
+## Platform expectations
+
+- Vivado: connects to the supported local Vivado integration, or to a separately configured remote Vivado profile.
+- Anlogic: uses the managed Tang Dynasty runtime on supported Windows environments.
+- Quartus: uses the managed Quartus runtime. The public catalog includes diagnostics, read-only queries, project entry and creation, build lifecycle, source registration, and fixed top-level configuration.
+
+Run the platform-scoped doctor before troubleshooting individual tools:
+
+```bash
+synthpilot doctor --platform quartus
+```
+
+## Remote Vivado over SSH (Beta)
+
+Remote Vivado profiles are available in Beta. SynthPilot runs on the remote
+Linux host and connects to Vivado through a loopback-only Tcl listener; MCP
+transport uses OpenSSH stdio instead of exposing the Tcl port to the network.
+
+The remote host must already have an activated SynthPilot 1.4.0 or later,
+Vivado running in an interactive session, and a protocol 1 Tcl listener on
+127.0.0.1. Configure connection details and credentials in the local SSH
+config, then run:
+
+```bash
+ssh vivado-lab
+synthpilot remote add lab vivado-lab
+synthpilot remote doctor lab
+synthpilot install-mcp --remote lab
+```
+
+All MCP paths refer to the remote Linux filesystem. SynthPilot does not start
+Vivado or synchronize source and generated project trees. The complete remote
+Linux + Vivado end-to-end live matrix remains under acceptance, so use this
+Beta capability first in a controlled development environment.
+
+## Guidance for AI agents
+
+1. Use only tools actually returned by the connected MCP server. Do not infer unavailable tools from another platform or plan.
+2. Inspect the public catalog for short descriptions and parameter summaries. Treat the runtime MCP schema as authoritative for exact arguments.
+3. Prefer structured tools over constructing vendor Tcl. Raw Tcl is not a supported public capability.
+4. Long-running Quartus builds use start/status/log/cancel lifecycle tools. Poll status until terminal before querying reports or closing the project.
+5. Do not claim that setup or doctor opens projects, mutates designs, or starts builds; those commands perform installation, registration, and diagnostics only.
+
+## Data boundary
+
+SynthPilot's EDA runtime and tool execution are local. SynthPilot does not upload FPGA source or project files through its service. The user's AI client or model provider may process prompts, context, and files under its own configuration and privacy policy.
+
+## Troubleshooting
+
+```bash
+synthpilot --help
+synthpilot doctor --platform vivado
+synthpilot install-mcp --help
+```
+
+Support: support@synthpilot.dev

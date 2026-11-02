@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+projects/
+test-output/
+release/
+resources/
+evidence/*.img
+evidence/*.vvp
+evidence/rtl_final/
+evidence/rtl-output/

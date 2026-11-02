@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "destination": "C:\\Users\\Renni\\.codex\\visualizations\\2026\\10\\22\\01a1626c-c1f0-7a23-b22e-480b1e6ed67d\\便携工具 独立验收 v4",
+  "exe_sha256": "a7fe3537d2bc72029b540cc13029ad5f02edee38e48bf8e4f6873d4102cffbdf",
+  "stripped_path": "C:\\Windows\\System32;C:\\Windows",
+  "project_id": "20bfe485ab494b6d96c4a9ff8ace9cf9",
+  "release_id": "afeef1f38d1a4995a0431152e29fc6b6",
+  "image": {
+    "path": "card.img",
+    "sha256": "5da526c14e28b36725a34f69c9b7a4a6f3a3bd6125d17bce66f9d672c42cbc0c",
+    "bytes": 67108864
+  },
+  "checks": [
+    "relocated Unicode path EXE starts",
+    "no repository Python/PATH dependency",
+    "create/upload/save/reopen project",
+    "custom font/ROM generation",
+    "FAT32 build/full media readback",
+    "640x480 image-backed preview",
+    "WAV header and PCM byte ranges",
+    "file simulation full SHA-256 readback",
+    "browser zero console errors",
+    "explicit fixed pixel state reaches preview and comparison report",
+    "PNG stored RGB compared without browser ICC transformation",
+    "pixel comparator identical fixture=0, changed fixture=1"
+  ],
+  "board_capture_tested": false,
+  "physical_card_written": false
+}

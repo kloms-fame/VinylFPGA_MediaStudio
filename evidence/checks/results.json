@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "unittest",
+      "command": [
+        "D:\\Data_Backup\\VinylFPGA_Workspace_Base\\VinylFPGA\\.worktrees\\media-studio\\VinylFPGA_MediaStudio\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "frontend",
+      "command": [
+        "D:\\Data_Backup\\VinylFPGA_Workspace_Base\\VinylFPGA\\.worktrees\\media-studio\\VinylFPGA_MediaStudio\\.venv\\Scripts\\python.exe",
+        "scripts/test_frontend.py",
+        "-v"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "pixel_compare",
+      "command": [
+        "node",
+        "scripts/test_pixel_compare.js"
+      ],
+      "returncode": 0
+    }
+  ],
+  "source_sha256": {
+    "src/launcher.py": "e5dfb5ee8c9304df392d821311b649432a255830a2c30e9fd49b57d1b4fe0503",
+    "src/studio/__init__.py": "a923699ab2774c5f6409eb1a1b0ea7a0996af5fffb5a5521aa3b39702e62bddb",
+    "src/studio/build.py": "183f75e9b5db7a5229e67bcfd86f4322977e28940e7bc7f79728d7d18613dab3",
+    "src/studio/devices.py": "5154b8bf5ad8d0e6bf77381ebf52b00c34abc3bf78b71aab658f195714792385",
+    "src/studio/fat32.py": "ed603b9e552de44404ffa9abd35a10c80d81de2f63438810b8bc7a8eb81972c5",
+    "src/studio/jobs.py": "1c00d520cc1ebc2f852faa9b740ff8499c2ba955df7ebb24a790647a8bdd0542",
+    "src/studio/lyrics.py": "c0f5b3d99f51dd552176e7720051788d144efd16bec2666f075f3d0bf8c75f17",
+    "src/studio/media.py": "35290e1a43a8490753881669f4d5659a48943d7454ed8ffef93f3c8b2c4c2793",
+    "src/studio/paths.py": "c44d861babe8dc93c6418d076cf89bcac24b02f856925eae3c258274d1650a0a",
+    "src/studio/preview.py": "9f44e3d1c3b1e9091f8a742422fef5e5df3cda4857644304c7fcac14e3b80f54",
+    "src/studio/project.py": "7e7e5e32437000ac4b2584b675f7debeccd992ccdff02fb8f6ab8d8ffbeea237",
+    "src/studio/rom.py": "7b53a6f7e48d751db22a45fa6efc34a110a4d75d1bb77b150943a45252813bcb",
+    "src/studio/server.py": "804c94a1b8c3530a9c72c30f3d7afdb94f52ab311dc29830009c321b7c8b231c",
+    "web/app.js": "7e48919da2913b416f24e2fff6fe5486ba46b85448142758a536b71b1995dc2d",
+    "web/index.html": "97288f1d88f1de232ec5c5259c0900954194567b00fbe7a2341ae2eca162d336",
+    "web/pixel-compare.js": "f4337c7de23d1a0123021394daee360efe3f95fee603f22c044d22ff66c0a619",
+    "web/style.css": "4adcc2df8e94550218fbf6308f9f0baac9c9fe837a4136bfa7737721a3928296",
+    "tests/rtl/mv_stream_player_reference.v": "114900adc279a05ccdf8d1aa63389f5844cac39de742da07d08ea4cb15ffadac",
+    "tests/rtl/tb_preview_frame.v": "14393bcd3472702ca3c71764a40135151d2e9c1f6cb61611b95ef967e7ba9b47",
+    "tests/rtl/tb_rgb565.v": "77a918a32725ddb9bef6bd7351c66dc0d174443529a48cc3f969fb175bdc7897",
+    "tests/test_build.py": "0f01e8dbebff88a0a1c6bad719f69d4b33c1c6314da57efa6c67f90ed86314ef",
+    "tests/test_devices.py": "9057f0c23f323dc07da3b993e855abad095bc80e71dbe543fe1ce593afe0565d",
+    "tests/test_fat32.py": "786c78c456badca1a4a2651392639d16991bcb08bf6eb594fc6adcef56973f86",
+    "tests/test_launcher.py": "e7af2ce32e35485e3604f88397af4b0159843cc1b8286270021cb0b9ab4daf5b",
+    "tests/test_lyrics.py": "4214b20be158a9ae3ca0ac608efd58af18d1fb588e0e54c51c78f18a54b4b75f",
+    "tests/test_preview.py": "00aafb309e262889ed97315001935ddb2bc2ea088998965eae97ba5e2f2c37a7",
+    "tests/test_project.py": "17e5e0fb5ad6e9195a00224cae5af6a33812f48d83134ea624d8948c8aea216a",
+    "tests/test_server.py": "cafd7209e9e11904836e5b7fc2f5f5eab83d7a30c2815e3039906caa970999aa",
+    "tests/test_vendor_writer.py": "c7e95f9565a7d0f1b6df97f8d340a9f3fb443a90d105193493bdbe3fd321ee08",
+    "vendor/gen_lrc_assets.py": "ece0deb71792a4e93688a0a9b0aa5a742d4034eb78f6abb9bc48dde7c31f8eec",
+    "vendor/PROVENANCE.json": "bbd755ca9490a323fe145ad4b5a14b3e0404315ed72dbe0a3204596597bb387f",
+    "vendor/safe_raw_writer.py": "be24df21b4284a0f2f88142f5237a7a4b437275c0effd806736f2097e8310845",
+    "vendor/vinyl_packer.py": "185fb21e1b6b44c111bf2a9965693ae15b6792195ba7a66b9a81a6e0f21aee66",
+    "profiles/frozen/ascii_font_rom.v": "663262e5d437e3d34c808bd418397cc8152de9fd7c107d8e181b787fc4ae922f",
+    "profiles/frozen/playback_layout.vh": "38079f3a4c2dae0d66c4453b98b33644ebc3d3783c38e2c349f3d30c2bfe95d3",
+    "profiles/frozen/profile.json": "ea35495afa75bf9a39047ca6023e62d847f6a8899e20b17f2fe4c5640f924ff7",
+    "profiles/frozen/rtl/brightness_contrast_steps.v": "ec1bf8053b0e738cd02f9ffe4a3df2bc98e9413b90dc19bc067f6d2ef0b37ff1",
+    "profiles/frozen/rtl/lrc_five_osd.v": "2e23d8d49c8b5453450150a63995bc49458fe6b8efcfdb6a63f806706bf1e1c4",
+    "profiles/frozen/rtl/lrc_scroll_controller.v": "3dac4c507171ba919b8f566bb42338c6b9fe8d3b742b4fef40d8773f6cb7da48",
+    "profiles/frozen/rtl/playback_background.v": "c798b7781bd895ff0ec0311e96476480fc21af58f18762fe2301e607b17c4f5f",
+    "profiles/frozen/rtl/playback_page.v": "1d1533cb919b1d06c5b553c1a1c55c04f4349453b18cb3751e0d5cb770ac97c5",
+    "profiles/frozen/rtl/promax_audio_waveform.v": "5f47133af25d173a7a922a59f870c86f53625b373e71cf9ccc7fba586ad1bef2",
+    "profiles/frozen/song_font_rom.v": "dabdbcc799c742058b4b303bd2c40be8ea19a3445f4552da50806ff90a6c405f",
+    "profiles/frozen/song_text_geom.vh": "5fff58e96819148c3d02620329cb011f7b84886b745c3957f799c8f346686e1e",
+    "profiles/frozen/song_text_rom.v": "f94b8024c97e2f7d48f8199d75b100b42481c996aee98f6863f6434c3149f9fa"
+  }
+}

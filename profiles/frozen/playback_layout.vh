@@ -1,0 +1,46 @@
+`ifndef VINYL_PLAYBACK_LAYOUT_VH
+`define VINYL_PLAYBACK_LAYOUT_VH
+`define PLAYBACK_EC2_OSD_X0       10'd360
+`define PLAYBACK_EC2_OSD_X1       10'd624
+`define PLAYBACK_EC2_OSD_Y0       10'd16
+`define PLAYBACK_EC2_OSD_Y1       10'd112
+`define PLAYBACK_EC2_TEXT_X       10'd376
+`define PLAYBACK_EC2_STATUS_X     10'd568
+`define PLAYBACK_EC2_TITLE_Y      10'd30
+`define PLAYBACK_EC2_VALUE_Y      10'd53
+`define PLAYBACK_EC2_BAR_Y        10'd88
+`define PLAYBACK_MV_X0            10'd16
+`define PLAYBACK_MV_X1            10'd336
+`define PLAYBACK_MV_Y0            10'd48
+`define PLAYBACK_MV_Y1            10'd288
+`define PLAYBACK_WAVE_X0          10'd64
+`define PLAYBACK_WAVE_X1          10'd596
+`define PLAYBACK_WAVE_Y0          10'd376
+`define PLAYBACK_WAVE_Y1          10'd472
+`define PLAYBACK_META_X0          10'd16
+`define PLAYBACK_META_X1          10'd336
+`define PLAYBACK_META_Y0          10'd288
+`define PLAYBACK_META_Y1          10'd376
+`define PLAYBACK_TITLE_X          10'd16
+`define PLAYBACK_TITLE_Y          10'd298
+`define PLAYBACK_ARTIST_X         10'd16
+`define PLAYBACK_ARTIST_Y         10'd318
+`define PLAYBACK_TIME_Y           10'd350
+`define PLAYBACK_ELAPSED_X        10'd16
+`define PLAYBACK_ELAPSED_W        10'd40
+`define PLAYBACK_REMAINING_X      10'd288
+`define PLAYBACK_REMAINING_W      10'd48
+`define PLAYBACK_END_MODE_X       10'd168
+`define PLAYBACK_END_MODE_Y       10'd350
+`define PLAYBACK_END_MODE_SIZE    10'd16
+`define PLAYBACK_PROGRESS_X       10'd16
+`define PLAYBACK_PROGRESS_Y       10'd342
+`define PLAYBACK_PROGRESS_H       10'd4
+`define PLAYBACK_PROGRESS_W       10'd320
+`define PLAYBACK_LYRIC_X          10'd356
+`define PLAYBACK_LYRIC_Y          10'd224
+`define PLAYBACK_INFO_X0          10'd352
+`define PLAYBACK_INFO_X1          10'd632
+`define PLAYBACK_INFO_Y0          10'd48
+`define PLAYBACK_INFO_Y1          10'd360
+`endif

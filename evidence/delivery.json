@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "verified_at_utc": "2026-10-22T12:45:13.750924+00:00",
+  "destination": "D:\\Data_Backup\\VinylFPGA_Workspace_Base\\VinylFPGA\\VinylFPGA_MediaStudio",
+  "copied_files": 391,
+  "copied_bytes": 3352854984,
+  "copy_hashes_match": true,
+  "original_fpga_files_checked": 142,
+  "current_repository_matches_frozen_baseline": false,
+  "frozen_project_and_bit_unchanged": true,
+  "concurrent_rtl_drift": [
+    {
+      "path": "src/top_tf_hdmi_audio.v",
+      "frozen_sha256": "3fad646a8839b2442b2a5e65066cd70cbc43f58e6c849f775ede73df558eafd9",
+      "current_sha256": "8c9c663fdd6d8ed68d1d84953a9f83babce4535b59492a30c5b1a3a0af413052"
+    },
+    {
+      "path": "src/display/lrc_five_osd.v",
+      "frozen_sha256": "2e23d8d49c8b5453450150a63995bc49458fe6b8efcfdb6a63f806706bf1e1c4",
+      "current_sha256": "00af3d3dd93d2a52bd64af473f0e1579cbfd5154f593c6d2df5bf30331b66550"
+    },
+    {
+      "path": "src/display/playback_page.v",
+      "frozen_sha256": "1d1533cb919b1d06c5b553c1a1c55c04f4349453b18cb3751e0d5cb770ac97c5",
+      "current_sha256": "3301f6931a0632baee8b2f7cedfefdb022e41fe2d1ca5bb95c30d106bf80694e"
+    },
+    {
+      "path": "src/io/ui_event_bridge.v",
+      "frozen_sha256": "73fd596fccf871e596bc9169a29207c80dae0dd9cb71dfe9e30d301a12e66852",
+      "current_sha256": "bcaeac8a90250d549a7ed3482545915778ed2cd4f42130847da7b7bd4f61436f"
+    }
+  ],
+  "exe_sha256": "a7fe3537d2bc72029b540cc13029ad5f02edee38e48bf8e4f6873d4102cffbdf",
+  "zip_sha256": "b0f0eff6dc50edd881dddf37865c9abab253c8b87d5492eacc1a3ad1995495df",
+  "full_album_image_sha256": "1f08505e64c284f49cd7cae516f557bc173c464c314b1fe29b35d5b54f54a247",
+  "physical_card_written": false,
+  "board_capture_tested": false
+}

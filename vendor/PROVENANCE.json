@@ -1,0 +1,17 @@
+{
+  "source_commit": "c5b01c0a31e03bf32c220f0b43a3fa8e3d2bac43",
+  "files": {
+    "vinyl_packer.py": {
+      "source": "tools/vinyl_packer.py",
+      "sha256": "185fb21e1b6b44c111bf2a9965693ae15b6792195ba7a66b9a81a6e0f21aee66"
+    },
+    "gen_lrc_assets.py": {
+      "source": "tools/gen_lrc_assets.py",
+      "sha256": "ece0deb71792a4e93688a0a9b0aa5a742d4034eb78f6abb9bc48dde7c31f8eec"
+    },
+    "safe_raw_writer.py": {
+      "source": "tools/safe_raw_writer.py",
+      "sha256": "be24df21b4284a0f2f88142f5237a7a4b437275c0effd806736f2097e8310845"
+    }
+  }
+}

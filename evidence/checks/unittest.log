@@ -1,0 +1,144 @@
+test_actual_mv_and_four_slots (test_build.BuildTests.test_actual_mv_and_four_slots) ... ok
+test_bank_overflow_does_not_publish_release (test_build.BuildTests.test_bank_overflow_does_not_publish_release) ... ok
+test_cancel_does_not_publish_release (test_build.BuildTests.test_cancel_does_not_publish_release) ... ok
+test_custom_real_roundtrip_and_crc_rejection (test_build.BuildTests.test_custom_real_roundtrip_and_crc_rejection) ... ok
+test_frozen_uses_exact_rom_and_reports_mismatch (test_build.BuildTests.test_frozen_uses_exact_rom_and_reports_mismatch) ... ok
+test_mid_build_cancel_does_not_publish_release (test_build.BuildTests.test_mid_build_cancel_does_not_publish_release) ... ok
+test_packed_files_must_match_expected_conversion_hashes (test_build.BuildTests.test_packed_files_must_match_expected_conversion_hashes) ... ok
+test_project_edit_does_not_change_inflight_snapshot (test_build.BuildTests.test_project_edit_does_not_change_inflight_snapshot) ... ok
+test_source_change_is_not_published (test_build.BuildTests.test_source_change_is_not_published) ... ok
+test_fat_copies_must_match (test_build.ImageRejectionTests.test_fat_copies_must_match) ... ok
+test_fragmented_audio_refused (test_build.ImageRejectionTests.test_fragmented_audio_refused) ... ok
+test_index_crc_refused (test_build.ImageRejectionTests.test_index_crc_refused) ... ok
+test_index_outside_first_root_sector (test_build.ImageRejectionTests.test_index_outside_first_root_sector) ... ok
+test_shared_file_clusters_refused (test_build.ImageRejectionTests.test_shared_file_clusters_refused) ... ok
+test_truncated_image (test_build.ImageRejectionTests.test_truncated_image) ... ok
+test_changed_device_snapshot_is_rejected (test_devices.DeviceContract.test_changed_device_snapshot_is_rejected) ... ok
+test_helper_retains_complete_identity_and_reports_progress (test_devices.DeviceContract.test_helper_retains_complete_identity_and_reports_progress) ... progress phase=write offset=0 total=1024 MiB/s=0.00 status=RUNNING
+progress phase=write offset=1024 total=1024 MiB/s=0.54 status=DONE
+ok
+test_partial_writes_and_full_readback (test_devices.DeviceContract.test_partial_writes_and_full_readback) ... ok
+test_writer_retains_source_system_and_sector_guards (test_devices.DeviceContract.test_writer_retains_source_system_and_sector_guards) ... ok
+test_directory_capacity_and_duplicate (test_fat32.Fat32Tests.test_directory_capacity_and_duplicate) ... ok
+test_real_volume_independent_parser (test_fat32.Fat32Tests.test_real_volume_independent_parser) ... ok
+test_refuse_undersize_or_existing_image (test_fat32.Fat32Tests.test_refuse_undersize_or_existing_image) ... ok
+test_stream_copy_and_digest_observe_cancel_between_chunks (test_fat32.Fat32Tests.test_stream_copy_and_digest_observe_cancel_between_chunks) ... ok
+test_starts_in_unicode_path_and_creates_ready_parent (test_launcher.LauncherContract.test_starts_in_unicode_path_and_creates_ready_parent) ... ok
+test_lrc_multi_tags_and_offset (test_lyrics.LyricsTests.test_lrc_multi_tags_and_offset) ... ok
+test_refuse_duplicates_and_more_than_128 (test_lyrics.LyricsTests.test_refuse_duplicates_and_more_than_128) ... ok
+test_rom_time_limits (test_lyrics.LyricsTests.test_rom_time_limits) ... ok
+test_srt_cleanup_and_bounded_splitting (test_lyrics.LyricsTests.test_srt_cleanup_and_bounded_splitting) ... ok
+test_bad_rom_hash_and_bad_image_identity_are_refused (test_preview.PreviewTests.test_bad_rom_hash_and_bad_image_identity_are_refused) ... ok
+test_exact_integer_brightness_and_contrast_boundaries (test_preview.PreviewTests.test_exact_integer_brightness_and_contrast_boundaries) ... ok
+test_image_source_not_loose_conversion_file (test_preview.PreviewTests.test_image_source_not_loose_conversion_file) ... ok
+test_rgb565_expands_by_bit_replication (test_preview.PreviewTests.test_rgb565_expands_by_bit_replication) ... ok
+test_rom_vectors_and_glyph_bits_are_read_from_generated_verilog (test_preview.PreviewTests.test_rom_vectors_and_glyph_bits_are_read_from_generated_verilog) ... ok
+test_waveform_fullscale_and_explicit_scroll_state (test_preview.PreviewTests.test_waveform_fullscale_and_explicit_scroll_state) ... ok
+test_draft_can_be_saved_before_import (test_project.ProjectTests.test_draft_can_be_saved_before_import) ... ok
+test_minimum_valid_project_roundtrip (test_project.ProjectTests.test_minimum_valid_project_roundtrip) ... ok
+test_reject_bad_crop (test_project.ProjectTests.test_reject_bad_crop) ... ok
+test_reject_bad_crop_and_long_title (test_project.ProjectTests.test_reject_bad_crop_and_long_title) ... ok
+test_reject_escape_and_five_songs (test_project.ProjectTests.test_reject_escape_and_five_songs) ... ok
+test_windows_relative_path_boundary (test_project.ProjectTests.test_windows_relative_path_boundary) ... ok
+test_board_png_decodes_raw_rgb_without_color_management (test_server.ServerContract.test_board_png_decodes_raw_rgb_without_color_management) ... ok
+test_build_errors_are_reported_as_terminal_jobs (test_server.ServerContract.test_build_errors_are_reported_as_terminal_jobs) ... ok
+test_create_upload_save_reopen_unicode_project (test_server.ServerContract.test_create_upload_save_reopen_unicode_project) ... ok
+test_explicit_exit_stops_the_local_service (test_server.ServerContract.test_explicit_exit_stops_the_local_service) ... ok
+test_file_simulation_writes_and_verifies_without_disk_selection (test_server.ServerContract.test_file_simulation_writes_and_verifies_without_disk_selection) ... progress phase=prehash offset=0 total=67108864 MiB/s=0.00 status=RUNNING
+progress phase=prehash offset=67108864 total=67108864 MiB/s=1285.43 status=DONE
+progress phase=write offset=0 total=67108864 MiB/s=0.00 status=RUNNING
+progress phase=write offset=67108864 total=67108864 MiB/s=935.15 status=DONE
+progress phase=readback offset=0 total=67108864 MiB/s=0.00 status=RUNNING
+progress phase=readback offset=67108864 total=67108864 MiB/s=1293.78 status=DONE
+ok
+test_fixed_display_state_reaches_renderer_and_invalid_states_are_rejected (test_server.ServerContract.test_fixed_display_state_reaches_renderer_and_invalid_states_are_rejected) ... ok
+test_invalid_disk_write_never_starts_helper (test_server.ServerContract.test_invalid_disk_write_never_starts_helper) ... ok
+test_lyric_preflight_exposes_split_lines_offsets_and_bank_capacity (test_server.ServerContract.test_lyric_preflight_exposes_split_lines_offsets_and_bank_capacity) ... ok
+test_mutation_requires_session_token_and_same_origin (test_server.ServerContract.test_mutation_requires_session_token_and_same_origin) ... ok
+test_path_escape_and_executable_upload_refused (test_server.ServerContract.test_path_escape_and_executable_upload_refused) ... ok
+test_saved_edits_are_distinguished_from_built_snapshot (test_server.ServerContract.test_saved_edits_are_distinguished_from_built_snapshot) ... ok
+test_state_and_offline_html (test_server.ServerContract.test_state_and_offline_html) ... ok
+test_cli_default_is_read_only_and_errors_nonzero (test_vendor_writer.WriterTests.test_cli_default_is_read_only_and_errors_nonzero) ... ok
+test_dangerous_device_and_namespace_paths_rejected (test_vendor_writer.WriterTests.test_dangerous_device_and_namespace_paths_rejected) ... ok
+test_diagnose_never_creates_destination (test_vendor_writer.WriterTests.test_diagnose_never_creates_destination) ... progress phase=prehash offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=prehash offset=4096 total=4096 MiB/s=7.68 status=DONE
+ok
+test_existing_simulation_file_rejected (test_vendor_writer.WriterTests.test_existing_simulation_file_rejected) ... ok
+test_expected_layout_change_after_write_still_verifies (test_vendor_writer.WriterTests.test_expected_layout_change_after_write_still_verifies) ... progress phase=prehash offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=prehash offset=4096 total=4096 MiB/s=8.05 status=DONE
+progress phase=write offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=write offset=4096 total=4096 MiB/s=6.43 status=DONE
+progress phase=readback offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=readback offset=4096 total=4096 MiB/s=7.77 status=DONE
+ok
+test_failed_write_reports_elapsed_phase_and_failure_offset (test_vendor_writer.WriterTests.test_failed_write_reports_elapsed_phase_and_failure_offset) ... progress phase=prehash offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=prehash offset=4096 total=4096 MiB/s=10.22 status=DONE
+progress phase=write offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=write offset=0 total=4096 MiB/s=0.00 status=FAILED
+ok
+test_failure_closes_simulation_file_and_retains_partial_for_diagnosis (test_vendor_writer.WriterTests.test_failure_closes_simulation_file_and_retains_partial_for_diagnosis) ... progress phase=prehash offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=prehash offset=4096 total=4096 MiB/s=9.37 status=DONE
+progress phase=write offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=write offset=0 total=4096 MiB/s=0.00 status=FAILED
+ok
+test_identity_change_refused (test_vendor_writer.WriterTests.test_identity_change_refused) ... ok
+test_invalid_boot_and_unaligned_image_rejected (test_vendor_writer.WriterTests.test_invalid_boot_and_unaligned_image_rejected) ... ok
+test_list_disks_wrapper_schema (test_vendor_writer.WriterTests.test_list_disks_wrapper_schema) ... ok
+test_mbr_layout_and_bounds (test_vendor_writer.WriterTests.test_mbr_layout_and_bounds) ... ok
+test_physical_lock_write_flush_readback_failures_release_every_handle (test_vendor_writer.WriterTests.test_physical_lock_write_flush_readback_failures_release_every_handle) ... progress phase=prehash offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=prehash offset=4096 total=4096 MiB/s=7.79 status=DONE
+progress phase=prehash offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=prehash offset=4096 total=4096 MiB/s=8.71 status=DONE
+progress phase=write offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=write offset=0 total=4096 MiB/s=0.00 status=FAILED
+progress phase=prehash offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=prehash offset=4096 total=4096 MiB/s=10.66 status=DONE
+progress phase=write offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=write offset=4096 total=4096 MiB/s=9.38 status=DONE
+progress phase=prehash offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=prehash offset=4096 total=4096 MiB/s=10.25 status=DONE
+progress phase=write offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=write offset=4096 total=4096 MiB/s=12.61 status=DONE
+progress phase=readback offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=readback offset=0 total=4096 MiB/s=0.00 status=FAILED
+ok
+test_physical_locks_retained_through_close_reopen_readback (test_vendor_writer.WriterTests.test_physical_locks_retained_through_close_reopen_readback) ... progress phase=prehash offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=prehash offset=4096 total=4096 MiB/s=14.09 status=DONE
+progress phase=write offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=write offset=4096 total=4096 MiB/s=11.03 status=DONE
+progress phase=readback offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=readback offset=4096 total=4096 MiB/s=12.60 status=DONE
+ok
+test_raw_disk_allowed_and_guid_only_volume_supported (test_vendor_writer.WriterTests.test_raw_disk_allowed_and_guid_only_volume_supported) ... ok
+test_raw_enumeration_bypasses_no_partition_query (test_vendor_writer.WriterTests.test_raw_enumeration_bypasses_no_partition_query) ... ok
+test_readback_corruption_detected (test_vendor_writer.WriterTests.test_readback_corruption_detected) ... ok
+test_real_file_write_and_full_reopen_readback (test_vendor_writer.WriterTests.test_real_file_write_and_full_reopen_readback) ... progress phase=prehash offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=prehash offset=4096 total=4096 MiB/s=7.85 status=DONE
+progress phase=write offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=write offset=4096 total=4096 MiB/s=6.88 status=DONE
+progress phase=readback offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=readback offset=4096 total=4096 MiB/s=9.57 status=DONE
+ok
+test_short_reads_and_writes_complete (test_vendor_writer.WriterTests.test_short_reads_and_writes_complete) ... ok
+test_short_source_eof_fails (test_vendor_writer.WriterTests.test_short_source_eof_fails) ... ok
+test_source_as_target_rejected (test_vendor_writer.WriterTests.test_source_as_target_rejected) ... ok
+test_source_change_is_rejected (test_vendor_writer.WriterTests.test_source_change_is_rejected) ... progress phase=prehash offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=prehash offset=4096 total=4096 MiB/s=5.07 status=DONE
+progress phase=write offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=write offset=4096 total=4096 MiB/s=7.54 status=FAILED
+ok
+test_source_disk_and_imprecise_confirmation_rejected (test_vendor_writer.WriterTests.test_source_disk_and_imprecise_confirmation_rejected) ... ok
+test_superfloppy_layout_recognized (test_vendor_writer.WriterTests.test_superfloppy_layout_recognized) ... ok
+test_transfer_progress_reports_while_io_is_pending_and_stops_on_exception (test_vendor_writer.WriterTests.test_transfer_progress_reports_while_io_is_pending_and_stops_on_exception) ... ok
+test_unexplained_partitions_refused (test_vendor_writer.WriterTests.test_unexplained_partitions_refused) ... ok
+test_unsafe_devices_rejected_without_opening_any_handle (test_vendor_writer.WriterTests.test_unsafe_devices_rejected_without_opening_any_handle) ... ok
+test_win32_error_offset_is_preserved (test_vendor_writer.WriterTests.test_win32_error_offset_is_preserved) ... ok
+test_wrong_expected_sha_never_creates_destination (test_vendor_writer.WriterTests.test_wrong_expected_sha_never_creates_destination) ... progress phase=prehash offset=0 total=4096 MiB/s=0.00 status=RUNNING
+progress phase=prehash offset=4096 total=4096 MiB/s=6.68 status=FAILED
+ok
+test_zero_write_fails_at_exact_offset (test_vendor_writer.WriterTests.test_zero_write_fails_at_exact_offset) ... ok
+
+----------------------------------------------------------------------
+Ran 81 tests in 26.529s
+
+OK
