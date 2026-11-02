@@ -21,3 +21,4 @@
 | `evidence/rtl_final/` | RTL 逐像素对照的中间大文件 | 跑对照脚本重新生成 |
 
 工具与固件的对应关系：本仓库生成的 `INDEX.BIN`、`PICn.BMP`、`TRACKn.MV`、`LYRICS.BIN` 由固件仓库 [VinylFPGA_Base](https://github.com/kloms-fame/VinylFPGA_Base) 的 `song_index_db` 与 `fat32_media_loader` 解析；点阵 ROM 必须与固件同版本，换字或换歌词要重新编译烧录。
+"# VinylFPGA_MediaStudio" 
